@@ -1,57 +1,171 @@
-<script>
-  import backgroundImage from './../images/idl_orange-grid-background.jpg';
-</script>
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-gray-50">
+  <div class="relative bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+        <div class="flex justify-start lg:w-0 lg:flex-1">
+          <a href="#">
+            <span class="sr-only">Workflow</span>
+            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+          </a>
+        </div>
+        <div class="-mr-2 -my-2 md:hidden">
+          <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+            <span class="sr-only">Open menu</span>
+            <!-- Heroicon name: outline/menu -->
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+        <nav class="hidden md:flex space-x-10">
+          <div class="relative">
+          </div>
 
-<main
-	class="grid h-screen"
-	style="grid-template-rows: 1fr 2fr; background: url('{backgroundImage}') no-repeat 50% 50%/cover;"
->
-	<header class="self-end px-7">
-		<svg
-			class="max-w-xl mx-auto pb-12 lg:pb-20 pt-8"
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 277.8 31.7"
-		>
-			<title>iDEA Lunchbox</title>
-			<desc>Idea Lunchbox, single line with white text</desc>
-			<rect width="1.4" height="1.6" x="11.1" y="12.4" fill="#ef7216" rx=".7" />
-			<rect width="1.3" height="9.5" x="11.2" y="14.9" fill="#fff" rx=".6" />
-			<path
-				fill="#fff"
-				d="M17.8 11.7c.4 0 .6.3.6.7l-2.1 12.3a.6.6 0 0 1-.6.5c-.5 0-.7-.2-.6-.7l2.1-12.3a.5.5 0 0 1 .5-.5ZM25.1 19.8a1.9 1.9 0 0 1-2.2 2.1h-.4a1.9 1.9 0 0 1-2.1-2.1v-5.4c0-1.5.7-2.2 2.1-2.2h.4a2 2 0 0 1 2.2 2.2Zm-1.4-5.5c0-.6-.2-.8-.8-.8h-.3c-.6 0-.9.2-.9.8v5.5a.8.8 0 0 0 .9.9h.3c.6 0 .8-.3.8-.9Z"
-			/>
-			<path
-				fill="#ef7216"
-				d="M24.4 24.7H21a.6.6 0 0 1-.6-.6.7.7 0 0 1 .6-.7h3.4a.7.7 0 0 1 .7.7.7.7 0 0 1-.7.6Z"
-			/>
-			<path
-				fill="#fff"
-				d="M32.7 4.9h-7.2A8 8 0 0 0 18.1.3a7.9 7.9 0 0 0-7.4 4.5H3.5A3.5 3.5 0 0 0 0 8.3v20a3.5 3.5 0 0 0 3.5 3.5h29.2a3.5 3.5 0 0 0 3.5-3.5V8.4a3.5 3.5 0 0 0-3.5-3.5ZM18.1 1.6a6.8 6.8 0 0 1 6.1 3.3H12a6.9 6.9 0 0 1 6.1-3.3Zm16.8 26.7a2.2 2.2 0 0 1-2.2 2.2H3.5a2.2 2.2 0 0 1-2.2-2.2V8.4a2.2 2.2 0 0 1 2.2-2.2h29.2a2.2 2.2 0 0 1 2.2 2.2ZM61.4 31.4c-1.5 0-2.1-.6-2.1-2.1v-27c0-1.4.6-2 2.1-2h3.8c4.5 0 6.9 2.3 6.9 6.9v17.3c0 4.5-2.4 6.9-6.9 6.9Zm1.5-27.9v24.6H65c2.3 0 3.5-1.2 3.5-3.6V7.1c0-2.4-1.2-3.6-3.5-3.6ZM79.8 2.3c0-1.4.5-2 2-2H88c1.2 0 1.6.4 1.6 1.6 0 1.2-.4 1.6-1.6 1.6h-4.7v10.4h4.5c1.1 0 1.6.4 1.6 1.5a1.4 1.4 0 0 1-1.6 1.6h-4.5v11h4.8c1.2 0 1.6.4 1.6 1.6 0 1.2-.4 1.6-1.6 1.6h-6.3c-1.5 0-2-.6-2-2.1ZM107.9 31.4a1.5 1.5 0 0 1-1.7-1.4l-.5-3.8h-5.8l-.5 3.8a1.4 1.4 0 0 1-1.6 1.4h-.1c-1.3 0-1.8-.6-1.6-1.9l4.2-27.6c.2-1.3.8-1.8 2-1.8h1.1c1.2 0 1.8.5 2 1.8l4.2 27.6c.2 1.4-.3 1.9-1.6 1.9Zm-7.5-8.4h4.8l-2.4-17.4ZM127.4 1.9c0-1.2.5-1.7 1.8-1.7h.1c1.2 0 1.7.5 1.7 1.7v26.2h4.3c1.2 0 1.6.4 1.6 1.6 0 1.2-.4 1.6-1.6 1.6h-5.8c-1.5 0-2.1-.6-2.1-2.1ZM154.3.2c1.3 0 1.8.5 1.8 1.7v24c0 3.8-2 5.7-5.8 5.7h-1.1c-3.9 0-5.8-1.9-5.8-5.7v-24c0-1.2.5-1.7 1.7-1.7h.1c1.3 0 1.8.5 1.8 1.7V26a2.1 2.1 0 0 0 2.3 2.4h.9a2.1 2.1 0 0 0 2.3-2.4V1.9c0-1.2.5-1.7 1.7-1.7ZM174.4 31.4a1.8 1.8 0 0 1-2-1.6L167.2 7v22.8c0 1.1-.6 1.6-1.7 1.6-1.2 0-1.7-.5-1.7-1.6V2.3c0-1.5.6-2.1 2.1-2.1h1.1a1.8 1.8 0 0 1 2 1.6l4.8 20.9V1.9a1.5 1.5 0 0 1 1.7-1.7h.1c1.1 0 1.6.5 1.6 1.7v27.5c0 1.5-.6 2-2 2ZM194.1 21c0-1.2.5-1.7 1.7-1.7h.1c1.2 0 1.7.5 1.7 1.7v4.9c0 3.8-1.9 5.7-5.8 5.7h-1.1c-3.9 0-5.8-1.9-5.8-5.7V5.8c0-3.9 1.9-5.8 5.8-5.8h1.1q5.7 0 5.7 5.7v4c0 1.2-.5 1.7-1.7 1.7h-.1c-1.2 0-1.6-.5-1.6-1.7V5.6a2.1 2.1 0 0 0-2.4-2.3h-.9a2.1 2.1 0 0 0-2.3 2.3V26a2.1 2.1 0 0 0 2.3 2.4h1a2.1 2.1 0 0 0 2.3-2.4ZM208.7 13.8h5.8V1.9c0-1.2.4-1.7 1.7-1.7h.1c1.2 0 1.7.5 1.7 1.7v27.8c0 1.3-.5 1.7-1.7 1.7h-.1c-1.3 0-1.7-.4-1.7-1.7V17.2h-5.8v12.5c0 1.3-.5 1.7-1.7 1.7h-.1c-1.3 0-1.8-.4-1.8-1.7V1.9c0-1.2.5-1.7 1.8-1.7h.1c1.2 0 1.7.5 1.7 1.7ZM238.1 10.6c0 2.6-.9 4.2-2.8 4.9 1.9.7 2.8 2.3 2.8 4.9v5.2c0 3.8-1.9 5.8-5.7 5.8h-4.5c-1.5 0-2.1-.6-2.1-2.1v-27c0-1.4.6-2 2.1-2h4.4c3.8 0 5.8 1.9 5.8 5.8Zm-3.6-4.8a2 2 0 0 0-2.3-2.3h-2.9v10.4h2.6a2.3 2.3 0 0 0 2.6-2.6Zm-5.2 11.3v11.1h3a2.1 2.1 0 0 0 2.3-2.4v-6.1a2.3 2.3 0 0 0-2.6-2.6ZM276 31.4a1.5 1.5 0 0 1-1.6-1.2l-3-10.9-3.1 10.8c-.3 1-.6 1.3-1.6 1.3h-.2c-1.2 0-1.8-.7-1.4-1.8l4.2-13.8-4.1-13.5c-.4-1.4.2-2.1 1.6-2.1h.1a1.5 1.5 0 0 1 1.6 1.2l2.9 11 3-10.9c.3-1 .6-1.3 1.7-1.3h.1c1.2 0 1.8.7 1.5 1.8l-4.2 13.8 4.1 13.5c.5 1.4-.1 2.1-1.5 2.1Z"
-			/>
-			<rect width="3.5" height="4.1" x="47.8" y="1" fill="#ef7216" rx="1.7" />
-			<rect width="3.4" height="24.1" x="47.9" y="7.3" fill="#fff" rx="1.6" />
-			<path
-				fill="#fff"
-				d="M258.1 19.1q0 5.4-5.4 5.4h-1q-5.4 0-5.4-5.4V5.4q0-5.4 5.4-5.4h1q5.4 0 5.4 5.4Zm-3.3-13.8a1.9 1.9 0 0 0-2.2-2.1h-.8a1.9 1.9 0 0 0-2.1 2.1v13.9a1.9 1.9 0 0 0 2.1 2.1h.8a1.9 1.9 0 0 0 2.2-2.1Z"
-			/>
-			<path
-				fill="#ef7216"
-				d="M256.4 31.5h-8.3a1.7 1.7 0 0 1-1.7-1.8 1.7 1.7 0 0 1 1.7-1.7h8.3a1.8 1.8 0 0 1 1.7 1.7 1.8 1.8 0 0 1-1.7 1.8Z"
-			/>
-		</svg>
-	</header>
-	<section>
-		<article class="bg-il-orange text-center py-12 px-7 text-white leading-6">
-			<p class="text-2xl lg:text-4xl max-w-7xl mx-auto font-bold">
-				We're thrilled to announce that as a splendid result of our endless efforts and outstanding
-				ecosystem support, Idea Lunchbox is soon giving room to the next step in evolution.
-			</p>
-			<div aria-hidden="true" class="py-4 lg:py-6 font-bold">• • • •</div>
-			<p class="text-xl lg:text-3xl max-w-7xl mx-auto pb-5 lg:pb-7 font-normal">
-				We'll continue moving forward stronger than ever towards our goal to bridge, strengthen, and
-				expand global innovation, entrepreneurship, and collaboration.
-			</p>
-			<p class="max-w-7xl mx-auto text-2xl lg:text-4xl font-bold">Stay tuned!</p>
-		</article>
-	</section>
-</main>
+          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Pricing </a>
+          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Docs </a>
+
+          <div class="relative">
+            <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+           
+
+            <!--
+              'More' flyout menu, show/hide based on flyout menu state.
+
+              Entering: "transition ease-out duration-200"
+                From: "opacity-0 translate-y-1"
+                To: "opacity-100 translate-y-0"
+              Leaving: "transition ease-in duration-150"
+                From: "opacity-100 translate-y-0"
+                To: "opacity-0 translate-y-1"
+            -->
+            <div class="absolute left-1/2 z-10 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"></div>
+          </div>
+        </nav>
+        <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+          <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a>
+          <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Sign up </a>
+        </div>
+      </div>
+    </div>
+
+    <!--
+      Mobile menu, show/hide based on mobile menu state.
+
+      Entering: "duration-200 ease-out"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "duration-100 ease-in"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right md:hidden">
+      <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+        <div class="pt-5 pb-6 px-5">
+          <div class="flex items-center justify-between">
+            <div>
+              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
+            </div>
+            <div class="-mr-2">
+              <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <span class="sr-only">Close menu</span>
+                <!-- Heroicon name: outline/x -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="mt-6">
+            <nav class="grid gap-y-8">
+              <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <!-- Heroicon name: outline/chart-bar -->
+                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+                <span class="ml-3 text-base font-medium text-gray-900"> Analytics </span>
+              </a>
+
+              <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <!-- Heroicon name: outline/cursor-click -->
+                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+                </svg>
+                <span class="ml-3 text-base font-medium text-gray-900"> Engagement </span>
+              </a>
+
+              <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <!-- Heroicon name: outline/shield-check -->
+                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                <span class="ml-3 text-base font-medium text-gray-900"> Security </span>
+              </a>
+
+              <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <!-- Heroicon name: outline/view-grid -->
+                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                </svg>
+                <span class="ml-3 text-base font-medium text-gray-900"> Integrations </span>
+              </a>
+
+              <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <!-- Heroicon name: outline/refresh -->
+                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+                <span class="ml-3 text-base font-medium text-gray-900"> Automations </span>
+              </a>
+            </nav>
+          </div>
+        </div>
+        <div class="py-6 px-5 space-y-6">
+          <div class="grid grid-cols-2 gap-y-4 gap-x-8">
+            <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Pricing </a>
+
+            <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Docs </a>
+
+            <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Help Center </a>
+
+            <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Guides </a>
+
+            <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Events </a>
+
+            <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Security </a>
+          </div>
+          <div>
+            <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Sign up </a>
+            <p class="mt-6 text-center text-base font-medium text-gray-500">
+              Existing customer?
+              <a href="#" class="text-indigo-600 hover:text-indigo-500"> Sign in </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="lg:relative">
+    <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+      <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+          <span class="block xl:inline">Data to enrich your</span>
+          <span class="block text-indigo-600 xl:inline">online business</span>
+        </h1>
+        <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+        <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+          <div class="rounded-md shadow">
+            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Get started </a>
+          </div>
+          <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"> Live demo </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+      <img class="absolute inset-0 w-full h-full object-cover" src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="">
+    </div>
+  </main>
+</div>

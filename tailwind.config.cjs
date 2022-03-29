@@ -4,11 +4,6 @@ const config = {
 	theme: {
 		fontFamily: {
 			sans: ['Helvetica', 'Arial', 'sans-serif']
-		},
-		colors: {
-			white: '#ffffff',
-			black: '#000000',
-			'il-orange': '#ef7216'
 		}
 	},
 
