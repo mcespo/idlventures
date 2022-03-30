@@ -1,16 +1,50 @@
+<script>
+// 	let navWidth = 0;
+	let navOpen = false;
+	
+	function handleNav() {
+		navOpen = !navOpen;
+// 		navWidth === 0 ? navWidth = 40 : navWidth = 0;
+	}
+	
+function handleNavWithKey(e) {
+	console.log(e.code);
+	if (e.code === "F1") {
+		navOpen = !navOpen;
+	}
+}	
+	
+// 	const openNav = () => {
+// 		navOpen = !navOpen;
+// 		navWidth = 40;
+// 	}
+	
+// 	const closeNav = () => {
+// 		navOpen = !navOpen;
+// 		navWidth = 0;
+// 	}	
+</script>
+
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-gray-50">
-  <div class="relative bg-white shadow">
+<div class="relative">
+  <div class="bg-white shadow">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <a href="#">
             <span class="sr-only">Workflow</span>
-            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+            <svg  class="h-8 w-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 652 571">
+                <style>
+                  .cls-1{fill:#ee7623}.cls-2{fill:#54565a}
+                </style>
+                <path d="M60 533c-4 0-5-2-6-5l-14-90c-1-4 1-6 5-6h1c3 0 5 1 5 4l11 76 10-76c0-3 2-4 5-4 5 0 6 1 6 6l-14 90c-1 3-3 5-6 5ZM120 438c0-4 2-6 7-6h20c4 0 5 1 5 5s-1 5-5 5h-16v34h15c4 0 5 1 5 5s-1 5-5 5h-15v36h16c4 0 5 1 5 5s-1 5-5 5h-20c-5 0-7-2-7-6ZM224 533c-3 0-5-2-6-6l-17-74v74c0 4-2 6-5 6h-1c-3 0-5-2-5-6v-89c0-5 2-6 7-6h4c3 0 5 1 6 5l16 67v-67c0-4 1-5 5-5s5 1 5 5v89c0 5-1 7-6 7ZM296 442v85c0 4-2 6-6 6s-6-2-6-6v-85h-10c-4 0-5-1-5-5s1-5 5-5h32c4 0 5 1 5 5s-1 5-5 5ZM381 432c4 0 6 1 6 5v78c0 12-6 18-19 18h-3c-13 0-19-6-19-18v-78c0-4 2-5 6-5s6 1 6 5v78c0 5 2 8 7 8h3c5 0 8-3 8-8v-78c0-4 1-5 5-5ZM467 469c0 8-3 14-9 16 6 2 9 6 9 13v29c0 4-2 6-6 6s-6-2-6-6v-28c0-6-3-9-9-9h-8v37c0 4-2 6-6 6s-5-2-5-6v-89c0-4 1-6 6-6h15c12 0 19 6 19 18Zm-12-19c0-5-3-8-8-8h-9v38h9c5 0 8-3 8-9ZM506 438c0-4 2-6 7-6h20c4 0 5 1 5 5s-1 5-5 5h-15v34h14c4 0 5 1 5 5s-1 5-5 5h-14v36h15c4 0 5 1 5 5s-1 5-5 5h-20c-5 0-7-2-7-6ZM606 481c8 6 10 10 10 19v15c0 12-6 18-19 18h-3c-12 0-18-6-18-18v-16c0-4 1-6 5-6s6 2 6 6v16c0 5 2 8 7 8h3c5 0 7-3 7-8v-15c0-5-1-7-5-9l-14-11c-7-5-9-10-9-18v-12c0-13 6-19 18-19h3c12 0 19 6 19 18v13c0 4-2 6-6 6s-6-2-6-6v-13c0-5-2-8-7-8h-2c-5 0-8 3-8 8v13c0 4 2 6 5 9Z" class="cls-1"/>
+                <path d="M191 335V95l-38 38v236h38v-34zM293 38h-63v38h61c25 0 37 12 37 38v179c0 26-12 38-37 38h-23V95l-38 38v236h63c49 0 73-23 73-73V111c0-49-24-73-73-73ZM405 38h38v293h-38zM443 331l-38 38h100v-38h-62z" class="cls-2"/>
+                <path d="M153 38h38v38h-38Z" class="cls-1"/>
+              </svg>
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
-          <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+          <button on:click={handleNav} type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-idl-gray hover:text-idl-gray-dark hover:bg-idl-gray-light focus:outline-none focus:ring-2 focus:ring-inset focus:ring-idl-blue" aria-expanded="false">
             <span class="sr-only">Open menu</span>
             <!-- Heroicon name: outline/menu -->
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -22,13 +56,11 @@
           <div class="relative">
           </div>
 
-          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Pricing </a>
-          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Docs </a>
+          <a href="#" class="text-base font-medium text-idl-gray hover:text-idl-gray-dark"> Pricing </a>
+          <a href="#" class="text-base font-medium text-idl-gray hover:text-idl-gray-dark"> Docs </a>
 
           <div class="relative">
             <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-           
-
             <!--
               'More' flyout menu, show/hide based on flyout menu state.
 
@@ -43,8 +75,8 @@
           </div>
         </nav>
         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-          <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a>
-          <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Sign up </a>
+          <a href="#" class="whitespace-nowrap text-base font-medium text-idl-gray hover:text-idl-gray-dark"> Sign in </a>
+          <a href="#" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-idl-blue hover:bg-indigo-700"> Sign up </a>
         </div>
       </div>
     </div>
@@ -59,15 +91,22 @@
         From: "opacity-100 scale-100"
         To: "opacity-0 scale-95"
     -->
-    <div class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right md:hidden">
+    <div class:hidden={!navOpen} class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right md:hidden">
       <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
         <div class="pt-5 pb-6 px-5">
           <div class="flex items-center justify-between">
             <div>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
+              <svg  class="h-8 w-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 652 571">
+                <style>
+                  .cls-1{fill:#ee7623}.cls-2{fill:#54565a}
+                </style>
+                <path d="M60 533c-4 0-5-2-6-5l-14-90c-1-4 1-6 5-6h1c3 0 5 1 5 4l11 76 10-76c0-3 2-4 5-4 5 0 6 1 6 6l-14 90c-1 3-3 5-6 5ZM120 438c0-4 2-6 7-6h20c4 0 5 1 5 5s-1 5-5 5h-16v34h15c4 0 5 1 5 5s-1 5-5 5h-15v36h16c4 0 5 1 5 5s-1 5-5 5h-20c-5 0-7-2-7-6ZM224 533c-3 0-5-2-6-6l-17-74v74c0 4-2 6-5 6h-1c-3 0-5-2-5-6v-89c0-5 2-6 7-6h4c3 0 5 1 6 5l16 67v-67c0-4 1-5 5-5s5 1 5 5v89c0 5-1 7-6 7ZM296 442v85c0 4-2 6-6 6s-6-2-6-6v-85h-10c-4 0-5-1-5-5s1-5 5-5h32c4 0 5 1 5 5s-1 5-5 5ZM381 432c4 0 6 1 6 5v78c0 12-6 18-19 18h-3c-13 0-19-6-19-18v-78c0-4 2-5 6-5s6 1 6 5v78c0 5 2 8 7 8h3c5 0 8-3 8-8v-78c0-4 1-5 5-5ZM467 469c0 8-3 14-9 16 6 2 9 6 9 13v29c0 4-2 6-6 6s-6-2-6-6v-28c0-6-3-9-9-9h-8v37c0 4-2 6-6 6s-5-2-5-6v-89c0-4 1-6 6-6h15c12 0 19 6 19 18Zm-12-19c0-5-3-8-8-8h-9v38h9c5 0 8-3 8-9ZM506 438c0-4 2-6 7-6h20c4 0 5 1 5 5s-1 5-5 5h-15v34h14c4 0 5 1 5 5s-1 5-5 5h-14v36h15c4 0 5 1 5 5s-1 5-5 5h-20c-5 0-7-2-7-6ZM606 481c8 6 10 10 10 19v15c0 12-6 18-19 18h-3c-12 0-18-6-18-18v-16c0-4 1-6 5-6s6 2 6 6v16c0 5 2 8 7 8h3c5 0 7-3 7-8v-15c0-5-1-7-5-9l-14-11c-7-5-9-10-9-18v-12c0-13 6-19 18-19h3c12 0 19 6 19 18v13c0 4-2 6-6 6s-6-2-6-6v-13c0-5-2-8-7-8h-2c-5 0-8 3-8 8v13c0 4 2 6 5 9Z" class="cls-1"/>
+                <path d="M191 335V95l-38 38v236h38v-34zM293 38h-63v38h61c25 0 37 12 37 38v179c0 26-12 38-37 38h-23V95l-38 38v236h63c49 0 73-23 73-73V111c0-49-24-73-73-73ZM405 38h38v293h-38zM443 331l-38 38h100v-38h-62z" class="cls-2"/>
+                <path d="M153 38h38v38h-38Z" class="cls-1"/>
+              </svg>
             </div>
             <div class="-mr-2">
-              <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              <button on:click={handleNav} type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                 <span class="sr-only">Close menu</span>
                 <!-- Heroicon name: outline/x -->
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -135,11 +174,7 @@
             <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Security </a>
           </div>
           <div>
-            <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Sign up </a>
-            <p class="mt-6 text-center text-base font-medium text-gray-500">
-              Existing customer?
-              <a href="#" class="text-indigo-600 hover:text-indigo-500"> Sign in </a>
-            </p>
+            <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-idl-green hover:bg-idl-blue"> Sign up </a>
           </div>
         </div>
       </div>
@@ -149,18 +184,12 @@
   <main class="lg:relative">
     <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
       <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+        <h1 class="text-4xl tracking-tight font-extrabold text-idl-gray-dark sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
           <span class="block xl:inline">Data to enrich your</span>
-          <span class="block text-indigo-600 xl:inline">online business</span>
+          <span class="block text-idl-orange xl:inline">online business</span>
         </h1>
-        <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+        <p class="mt-3 max-w-md mx-auto text-lg text-idl-gray-dark sm:text-xl md:mt-5 md:max-w-3xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
         <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-          <div class="rounded-md shadow">
-            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Get started </a>
-          </div>
-          <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"> Live demo </a>
-          </div>
         </div>
       </div>
     </div>
