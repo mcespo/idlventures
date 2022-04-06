@@ -97,31 +97,20 @@ function handleNavWithKey(e) {
   </div>
 
   <main class="lg:relative">
-    <!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-<div class="bg-white">
-  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
-    <div class="">
-      <h2 class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Finally an Internationalization Platform Designed for Early-Stage Deep Techs</h2>
-      <p class="mt-5 text-xl text-gray-500">IDL Ventures' internationalization platform provides all resources to meet deep techs' most fundamental needs.</p>
-      <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Discover</button>
-    </div>
+
+    
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-indigo-800">
+  <div class="absolute inset-0">
+    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt="">
+    <div class="absolute inset-0 bg-indigo-800 mix-blend-multiply" aria-hidden="true"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+    <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Get in touch</h1>
+    <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.</p>
   </div>
 </div>
+
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <section class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
@@ -315,209 +304,2126 @@ function handleNavWithKey(e) {
 
 
 
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-gray-50">
+  <div class="relative bg-indigo-600">
+    <!-- Overlapping background -->
+    <div aria-hidden="true" class="hidden absolute bg-gray-50 w-full h-6 bottom-0 lg:block"></div>
+
+    <div class="relative max-w-2xl mx-auto pt-16 px-4 text-center sm:pt-32 sm:px-6 lg:max-w-7xl lg:px-8">
+      <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
+        <span class="block lg:inline">Simple pricing,</span>
+        <span class="block lg:inline">no commitment.</span>
+      </h1>
+      <p class="mt-4 text-xl text-indigo-100">Everything you need, nothing you don't. Pick a plan that best suits your business.</p>
+    </div>
+
+    <h2 class="sr-only">Plans</h2>
+
+    <!-- Toggle -->
+    <div class="relative mt-12 flex justify-center sm:mt-16">
+      <div class="bg-indigo-700 p-0.5 rounded-lg flex">
+        <button type="button" class="relative bg-white py-2 px-6 border-indigo-700 rounded-md shadow-sm text-sm font-medium text-indigo-700 whitespace-nowrap hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white focus:z-10">Monthly billing</button>
+        <button type="button" class="ml-0.5 relative py-2 px-6 border border-transparent rounded-md text-sm font-medium text-indigo-200 whitespace-nowrap hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white focus:z-10">Yearly billing</button>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="relative mt-8 max-w-2xl mx-auto px-4 pb-8 sm:mt-12 sm:px-6 lg:max-w-7xl lg:px-8 lg:pb-0">
+      <!-- Decorative background -->
+      <div aria-hidden="true" class="hidden absolute top-4 bottom-6 left-8 right-8 inset-0 bg-indigo-700 rounded-tl-lg rounded-tr-lg lg:block"></div>
+
+      <div class="relative space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3">
+        <div class="bg-indigo-700 lg:bg-transparent pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
+          <div>
+            <h3 class="text-white text-sm font-semibold uppercase tracking-wide">Starter</h3>
+            <div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start">
+              <div class="mt-3 flex items-center">
+                <p class="text-white text-4xl font-extrabold tracking-tight">$5</p>
+                <div class="ml-4">
+                  <p class="text-white text-sm">USD / mo</p>
+                  <p class="text-indigo-200 text-sm">Billed yearly ($56)</p>
+                </div>
+              </div>
+              <a href="#" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy Starter</a>
+            </div>
+          </div>
+          <h4 class="sr-only">Features</h4>
+          <ul role="list" class="border-indigo-500 divide-indigo-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-white ml-3 text-sm font-medium">Basic invoicing</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-white ml-3 text-sm font-medium">Easy to use accounting</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-white ml-3 text-sm font-medium">Mutli-accounts</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white ring-2 ring-indigo-700 shadow-md pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
+          <div>
+            <h3 class="text-indigo-600 text-sm font-semibold uppercase tracking-wide">Scale</h3>
+            <div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start">
+              <div class="mt-3 flex items-center">
+                <p class="text-indigo-600 text-4xl font-extrabold tracking-tight">$19</p>
+                <div class="ml-4">
+                  <p class="text-gray-700 text-sm">USD / mo</p>
+                  <p class="text-gray-500 text-sm">Billed yearly ($220)</p>
+                </div>
+              </div>
+              <a href="#" class="bg-indigo-600 text-white hover:bg-indigo-700 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy Scale</a>
+            </div>
+          </div>
+          <h4 class="sr-only">Features</h4>
+          <ul role="list" class="border-gray-200 divide-gray-200 mt-7 border-t divide-y lg:border-t-0">
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-gray-600 ml-3 text-sm font-medium">Advanced invoicing</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-gray-600 ml-3 text-sm font-medium">Easy to use accounting</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-gray-600 ml-3 text-sm font-medium">Mutli-accounts</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-gray-600 ml-3 text-sm font-medium">Tax planning toolkit</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-gray-600 ml-3 text-sm font-medium">VAT &amp; VATMOSS filing</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-gray-600 ml-3 text-sm font-medium">Free bank transfers</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-indigo-700 lg:bg-transparent pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12">
+          <div>
+            <h3 class="text-white text-sm font-semibold uppercase tracking-wide">Growth</h3>
+            <div class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start">
+              <div class="mt-3 flex items-center">
+                <p class="text-white text-4xl font-extrabold tracking-tight">$12</p>
+                <div class="ml-4">
+                  <p class="text-white text-sm">USD / mo</p>
+                  <p class="text-indigo-200 text-sm">Billed yearly ($140)</p>
+                </div>
+              </div>
+              <a href="#" class="bg-white text-indigo-600 hover:bg-indigo-50 mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full">Buy Growth</a>
+            </div>
+          </div>
+          <h4 class="sr-only">Features</h4>
+          <ul role="list" class="border-indigo-500 divide-indigo-500 divide-opacity-75 mt-7 border-t divide-y lg:border-t-0">
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-white ml-3 text-sm font-medium">Basic invoicing</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-white ml-3 text-sm font-medium">Easy to use accounting</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-white ml-3 text-sm font-medium">Mutli-accounts</span>
+            </li>
+
+            <li class="py-3 flex items-center">
+              <!-- Heroicon name: solid/check -->
+              <svg class="text-indigo-200 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-white ml-3 text-sm font-medium">Tax planning toolkit</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature comparison (up to lg) -->
+  <section aria-labelledby="mobile-comparison-heading" class="lg:hidden">
+    <h2 id="mobile-comparison-heading" class="sr-only">Feature comparison</h2>
+
+    <div class="max-w-2xl mx-auto py-16 px-4 space-y-16 sm:px-6">
+      <div class="border-t border-gray-200" key="plan.title">
+        <div class="border-transparent -mt-px pt-6 border-t-2 sm:w-1/2">
+          <h3 class="text-gray-900 text-sm font-bold">Starter</h3>
+          <p class="mt-2 text-sm text-gray-500">All your essential business finances, taken care of.</p>
+        </div>
+        <h4 class="mt-10 text-sm font-bold text-gray-900">Catered for business</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow absolute right-0 w-1/2 h-full bg-white rounded-lg"></div>
+          </div>
+
+          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Tax Savings</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Easy to use accounting</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Multi-accounts</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-gray-900 text-sm font-medium">3 accounts</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Invoicing</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-gray-900 text-sm font-medium">3 invoices</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Exclusive offers</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">6 months free advisor</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Mobile and web access</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+
+        <h4 class="mt-10 text-sm font-bold text-gray-900">Other perks</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow absolute right-0 w-1/2 h-full bg-white rounded-lg"></div>
+          </div>
+
+          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">24/7 customer support</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Instant notifications</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Budgeting tools</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Digital receipts</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Pots to separate money</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Free bank transfers</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Business debit card</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-200" key="plan.title">
+        <div class="border-indigo-600 -mt-px pt-6 border-t-2 sm:w-1/2">
+          <h3 class="text-indigo-600 text-sm font-bold">Scale</h3>
+          <p class="mt-2 text-sm text-gray-500">The best financial services for your thriving business.</p>
+        </div>
+        <h4 class="mt-10 text-sm font-bold text-gray-900">Catered for business</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow-md absolute right-0 w-1/2 h-full bg-white rounded-lg"></div>
+          </div>
+
+          <div class="ring-2 ring-indigo-600 shadow-md relative py-3 px-4 bg-white rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Tax Savings</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Easy to use accounting</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Multi-accounts</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-indigo-600 text-sm font-medium">Unlimited accounts</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Invoicing</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-indigo-600 text-sm font-medium">Unlimited invoices</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Exclusive offers</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">6 months free advisor</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Mobile and web access</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-2 ring-indigo-600 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+
+        <h4 class="mt-10 text-sm font-bold text-gray-900">Other perks</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow-md absolute right-0 w-1/2 h-full bg-white rounded-lg"></div>
+          </div>
+
+          <div class="ring-2 ring-indigo-600 shadow-md relative py-3 px-4 bg-white rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">24/7 customer support</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Instant notifications</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Budgeting tools</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Digital receipts</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Pots to separate money</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Free bank transfers</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Business debit card</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-2 ring-indigo-600 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-200" key="plan.title">
+        <div class="border-transparent -mt-px pt-6 border-t-2 sm:w-1/2">
+          <h3 class="text-gray-900 text-sm font-bold">Growth</h3>
+          <p class="mt-2 text-sm text-gray-500">Convenient features to take your business to the next level.</p>
+        </div>
+        <h4 class="mt-10 text-sm font-bold text-gray-900">Catered for business</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow absolute right-0 w-1/2 h-full bg-white rounded-lg"></div>
+          </div>
+
+          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Tax Savings</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Easy to use accounting</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Multi-accounts</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-gray-900 text-sm font-medium">7 accounts</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Invoicing</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <span class="text-gray-900 text-sm font-medium">10 invoices</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Exclusive offers</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">6 months free advisor</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex items-center justify-between sm:grid sm:grid-cols-2">
+                <dt class="pr-4 text-sm font-medium text-gray-600">Mobile and web access</dt>
+                <dd class="flex items-center justify-end sm:px-4 sm:justify-center">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+
+        <h4 class="mt-10 text-sm font-bold text-gray-900">Other perks</h4>
+
+        <div class="mt-6 relative">
+          <!-- Fake card background -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="shadow absolute right-0 w-1/2 h-full bg-white rounded-lg"></div>
+          </div>
+
+          <div class="ring-1 ring-black ring-opacity-5 shadow relative py-3 px-4 bg-white rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none">
+            <dl class="divide-y divide-gray-200">
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">24/7 customer support</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Instant notifications</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Budgeting tools</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Digital receipts</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Pots to separate money</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Free bank transfers</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+
+              <div class="py-3 flex justify-between sm:grid sm:grid-cols-2">
+                <dt class="text-sm font-medium text-gray-600 sm:pr-4">Business debit card</dt>
+                <dd class="text-center sm:px-4">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Fake card border -->
+          <div aria-hidden="true" class="hidden absolute inset-0 pointer-events-none sm:block">
+            <div class="ring-1 ring-black ring-opacity-5 absolute right-0 w-1/2 h-full rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature comparison (lg+) -->
+  <section aria-labelledby="comparison-heading" class="hidden lg:block">
+    <h2 id="comparison-heading" class="sr-only">Feature comparison</h2>
+
+    <div class="max-w-7xl mx-auto py-24 px-8">
+      <div class="w-full border-t border-gray-200 flex items-stretch">
+        <div class="-mt-px w-1/4 py-6 pr-4 flex items-end">
+          <h3 class="mt-auto text-sm font-bold text-gray-900">Catered for business</h3>
+        </div>
+
+        <div aria-hidden="true" class="pr-4 -mt-px pl-4 w-1/4">
+          <div class="border-transparent py-6 border-t-2">
+            <p class="text-gray-900 text-sm font-bold">Starter</p>
+            <p class="mt-2 text-sm text-gray-500">All your essential business finances, taken care of.</p>
+          </div>
+        </div>
+
+        <div aria-hidden="true" class="pr-4 -mt-px pl-4 w-1/4">
+          <div class="border-indigo-600 py-6 border-t-2">
+            <p class="text-indigo-600 text-sm font-bold">Scale</p>
+            <p class="mt-2 text-sm text-gray-500">The best financial services for your thriving business.</p>
+          </div>
+        </div>
+
+        <div aria-hidden="true" class="-mt-px pl-4 w-1/4">
+          <div class="border-transparent py-6 border-t-2">
+            <p class="text-gray-900 text-sm font-bold">Growth</p>
+            <p class="mt-2 text-sm text-gray-500">Convenient features to take your business to the next level.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <!-- Fake card backgrounds -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white rounded-lg shadow"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white rounded-lg shadow-md"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full bg-white rounded-lg shadow"></div>
+          </div>
+        </div>
+
+        <table class="relative w-full">
+          <caption class="sr-only">
+            Business feature comparison
+          </caption>
+          <thead>
+            <tr class="text-left">
+              <th scope="col">
+                <span class="sr-only">Feature</span>
+              </th>
+
+              <th scope="col">
+                <span class="sr-only">Starter plan</span>
+              </th>
+
+              <th scope="col">
+                <span class="sr-only">Scale plan</span>
+              </th>
+
+              <th scope="col">
+                <span class="sr-only">Growth plan</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Tax Savings</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Easy to use accounting</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Multi-accounts</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-gray-900 text-sm font-medium">3 accounts</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-indigo-600 text-sm font-medium">Unlimited accounts</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-gray-900 text-sm font-medium">7 accounts</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Invoicing</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-gray-900 text-sm font-medium">3 invoices</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-indigo-600 text-sm font-medium">Unlimited invoices</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <span class="text-gray-900 text-sm font-medium">10 invoices</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Exclusive offers</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">6 months free advisor</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Mobile and web access</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Fake card borders -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-2 ring-indigo-600 ring-opacity-100"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mt-10 text-sm font-bold text-gray-900">Other perks</h3>
+
+      <div class="mt-6 relative">
+        <!-- Fake card backgrounds -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white rounded-lg shadow"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full bg-white rounded-lg shadow-md"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full bg-white rounded-lg shadow"></div>
+          </div>
+        </div>
+
+        <table class="relative w-full">
+          <caption class="sr-only">
+            Perk comparison
+          </caption>
+          <thead>
+            <tr class="text-left">
+              <th scope="col">
+                <span class="sr-only">Perk</span>
+              </th>
+
+              <th scope="col">
+                <span class="sr-only">Starter plan</span>
+              </th>
+
+              <th scope="col">
+                <span class="sr-only">Scale plan</span>
+              </th>
+
+              <th scope="col">
+                <span class="sr-only">Growth plan</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">24/7 customer support</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Instant notifications</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Budgeting tools</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Digital receipts</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Pots to separate money</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Free bank transfers</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="w-1/4 py-3 pr-4 text-left text-sm font-medium text-gray-600">Business debit card</th>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+
+              <td class="px-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/check -->
+                  <svg class="mx-auto h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">Yes</span>
+                </span>
+              </td>
+
+              <td class="pl-4 relative w-1/4 py-0 text-center">
+                <span class="relative w-full h-full py-3">
+                  <!-- Heroicon name: solid/x -->
+                  <svg class="mx-auto h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                  <span class="sr-only">No</span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Fake card borders -->
+        <div class="absolute inset-0 flex items-stretch pointer-events-none" aria-hidden="true">
+          <div class="w-1/4 pr-4"></div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+          <div class="w-1/4 px-4">
+            <div class="w-full h-full rounded-lg ring-2 ring-indigo-600 ring-opacity-100"></div>
+          </div>
+          <div class="w-1/4 pl-4">
+            <div class="w-full h-full rounded-lg ring-1 ring-black ring-opacity-5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-white">
-  <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
-    <div class="sm:flex sm:flex-col sm:align-center">
-      <h1 class="text-5xl font-extrabold text-gray-900 sm:text-center">Pricing Plans</h1>
-      <p class="mt-5 text-xl text-gray-500 sm:text-center">Start building for free, then add a site plan to go live. Account plans unlock additional features.</p>
-      <div class="relative self-center mt-6 bg-gray-100 rounded-lg p-0.5 flex sm:mt-8">
-        <button type="button" class="relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:z-10 sm:w-auto sm:px-8">Monthly billing</button>
-        <button type="button" class="ml-0.5 relative w-1/2 border border-transparent rounded-md py-2 text-sm font-medium text-gray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:z-10 sm:w-auto sm:px-8">Yearly billing</button>
+  <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
+    <div class="space-y-12">
+      <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Strategy</h2>
+        <p class="text-xl text-gray-500">Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet lectus sit pretium egestas vel mattis neque.</p>
       </div>
+      <ul role="list" class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl">
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div class="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
-      <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-        <div class="p-6">
-          <h2 class="text-lg leading-6 font-medium text-gray-900">Hobby</h2>
-          <p class="mt-4 text-sm text-gray-500">All the basics for starting a new business</p>
-          <p class="mt-8">
-            <span class="text-4xl font-extrabold text-gray-900">$12</span>
-            <span class="text-base font-medium text-gray-500">/mo</span>
-          </p>
-          <a href="#" class="mt-8 block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">Buy Hobby</a>
-        </div>
-        <div class="pt-6 pb-8 px-6">
-          <h3 class="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
-          <ul role="list" class="mt-6 space-y-4">
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Potenti felis, in cras at at ligula nunc.</span>
-            </li>
-
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Orci neque eget pellentesque.</span>
-            </li>
-          </ul>
-        </div>
+    <div class="space-y-12">
+      <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Execution</h2>
+        <p class="text-xl text-gray-500">Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet lectus sit pretium egestas vel mattis neque.</p>
       </div>
-
-      <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-        <div class="p-6">
-          <h2 class="text-lg leading-6 font-medium text-gray-900">Freelancer</h2>
-          <p class="mt-4 text-sm text-gray-500">All the basics for starting a new business</p>
-          <p class="mt-8">
-            <span class="text-4xl font-extrabold text-gray-900">$24</span>
-            <span class="text-base font-medium text-gray-500">/mo</span>
-          </p>
-          <a href="#" class="mt-8 block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">Buy Freelancer</a>
-        </div>
-        <div class="pt-6 pb-8 px-6">
-          <h3 class="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
-          <ul role="list" class="mt-6 space-y-4">
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Potenti felis, in cras at at ligula nunc. </span>
-            </li>
-
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Orci neque eget pellentesque.</span>
-            </li>
-
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Donec mauris sit in eu tincidunt etiam.</span>
-            </li>
-          </ul>
-        </div>
+      <ul role="list" class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl">
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="space-y-12">
+      <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Legal</h2>
+        <p class="text-xl text-gray-500">Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet lectus sit pretium egestas vel mattis neque.</p>
       </div>
-
-      <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-        <div class="p-6">
-          <h2 class="text-lg leading-6 font-medium text-gray-900">Startup</h2>
-          <p class="mt-4 text-sm text-gray-500">All the basics for starting a new business</p>
-          <p class="mt-8">
-            <span class="text-4xl font-extrabold text-gray-900">$32</span>
-            <span class="text-base font-medium text-gray-500">/mo</span>
-          </p>
-          <a href="#" class="mt-8 block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">Buy Startup</a>
-        </div>
-        <div class="pt-6 pb-8 px-6">
-          <h3 class="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
-          <ul role="list" class="mt-6 space-y-4">
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Potenti felis, in cras at at ligula nunc. </span>
-            </li>
-
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Orci neque eget pellentesque.</span>
-            </li>
-
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Donec mauris sit in eu tincidunt etiam.</span>
-            </li>
-
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Faucibus volutpat magna.</span>
-            </li>
-          </ul>
-        </div>
+      <ul role="list" class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl">
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="space-y-12">
+      <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Advisors</h2>
+        <p class="text-xl text-gray-500">Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet lectus sit pretium egestas vel mattis neque.</p>
       </div>
+      <ul role="list" class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl">
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-6">
+            <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+            <div class="space-y-2">
+              <div class="text-lg leading-6 font-medium space-y-1">
+                <h3>Whitney Francis</h3>
+                <p class="text-indigo-600">Copywriter</p>
+              </div>
+              <ul role="list" class="flex justify-center space-x-5">
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-      <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-        <div class="p-6">
-          <h2 class="text-lg leading-6 font-medium text-gray-900">Enterprise</h2>
-          <p class="mt-4 text-sm text-gray-500">All the basics for starting a new business</p>
-          <p class="mt-8">
-            <span class="text-4xl font-extrabold text-gray-900">$48</span>
-            <span class="text-base font-medium text-gray-500">/mo</span>
-          </p>
-          <a href="#" class="mt-8 block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">Buy Enterprise</a>
-        </div>
-        <div class="pt-6 pb-8 px-6">
-          <h3 class="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
-          <ul role="list" class="mt-6 space-y-4">
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Potenti felis, in cras at at ligula nunc. </span>
-            </li>
 
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Orci neque eget pellentesque.</span>
-            </li>
 
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Donec mauris sit in eu tincidunt etiam.</span>
-            </li>
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-indigo-800">
+  <div class="absolute inset-0">
+    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt="">
+    <div class="absolute inset-0 bg-indigo-800 mix-blend-multiply" aria-hidden="true"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+    <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Get in touch</h1>
+    <p class="mt-6 text-xl text-indigo-100 max-w-3xl">Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.</p>
+  </div>
+</div>
 
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Faucibus volutpat magna.</span>
-            </li>
 
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Id sed tellus in varius quisque.</span>
-            </li>
 
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Risus egestas faucibus.</span>
-            </li>
 
-            <li class="flex space-x-3">
-              <!-- Heroicon name: solid/check -->
-              <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              <span class="text-sm text-gray-500">Risus cursus ullamcorper.</span>
-            </li>
-          </ul>
-        </div>
+<!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/typography'),
+    ],
+  }
+  ```
+-->
+<div class="relative py-16 bg-white overflow-hidden">
+  <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+    <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
+    </div>
+  </div>
+  <div class="relative px-4 sm:px-6 lg:px-8">
+    <div class="text-lg max-w-prose mx-auto">
+      <h1>
+        <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Introducing</span>
+        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</span>
+      </h1>
+      <p class="mt-8 text-xl text-gray-500 leading-8">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
+    </div>
+    <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+      <p>Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">Trusted by over 5 very average small businesses</p>
+    <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Workcation">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic">
       </div>
     </div>
   </div>
@@ -525,882 +2431,101 @@ function handleNavWithKey(e) {
 
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<!-- This example requires Tailwind CSS v2.0+ -->
-<h2>Strategy</h2>
-<ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">Trusted by over 5 very average small businesses</p>
+    <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Workcation">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
+      </div>
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic">
       </div>
     </div>
-  </li>
+  </div>
+</div>
 
-  <!-- More people... -->
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-</ul>
-
-<h2>Execution</h2>
-<ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-  <!-- More people... -->
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-</ul>
-
-<h2>Legal</h2>
-<ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-  <!-- More people... -->
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-</ul>
-
-<h2>Advisors</h2>
-<ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-  <!-- More people... -->
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-      <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-      <h3 class="mt-6 text-gray-900 text-sm font-medium">Jane Cooper</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-500 text-sm">Paradigm Representative</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-          <span class="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
-        </dd>
-      </dl>
-    </div>
-    <div>
-      <div class="-mt-px flex divide-x divide-gray-200">
-        <div class="w-0 flex-1 flex">
-          <a href="mailto:janecooper@example.com" class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/mail -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
-            <span class="ml-3">Email</span>
-          </a>
-        </div>
-        <div class="-ml-px w-0 flex-1 flex">
-          <a href="tel:+1-202-555-0170" class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-            <!-- Heroicon name: solid/phone -->
-            <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-            </svg>
-            <span class="ml-3">Call</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </li>
-</ul>
 
 
   </main>
 </div>
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<footer class="bg-white">
+  <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+    <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+      <div class="px-5 py-2">
+        <a href="#" class="text-base text-gray-500 hover:text-gray-900"> About </a>
+      </div>
+
+      <div class="px-5 py-2">
+        <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Blog </a>
+      </div>
+
+      <div class="px-5 py-2">
+        <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Jobs </a>
+      </div>
+
+      <div class="px-5 py-2">
+        <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Press </a>
+      </div>
+
+      <div class="px-5 py-2">
+        <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Accessibility </a>
+      </div>
+
+      <div class="px-5 py-2">
+        <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Partners </a>
+      </div>
+    </nav>
+    <div class="mt-8 flex justify-center space-x-6">
+      <a href="#" class="text-gray-400 hover:text-gray-500">
+        <span class="sr-only">Facebook</span>
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+        </svg>
+      </a>
+
+      <a href="#" class="text-gray-400 hover:text-gray-500">
+        <span class="sr-only">Instagram</span>
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+        </svg>
+      </a>
+
+      <a href="#" class="text-gray-400 hover:text-gray-500">
+        <span class="sr-only">Twitter</span>
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+        </svg>
+      </a>
+
+      <a href="#" class="text-gray-400 hover:text-gray-500">
+        <span class="sr-only">GitHub</span>
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+        </svg>
+      </a>
+
+      <a href="#" class="text-gray-400 hover:text-gray-500">
+        <span class="sr-only">Dribbble</span>
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd" />
+        </svg>
+      </a>
+    </div>
+    <p class="mt-8 text-center text-base text-gray-400">&copy; 2020 Workflow, Inc. All rights reserved.</p>
+  </div>
+</footer>
