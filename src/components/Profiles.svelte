@@ -21,7 +21,7 @@
 			>
 				<li>
 					<Profile
-						profileImage="src/images/flavia_andrade.jpg"
+						profileImage="./../images/flavia_andrade.jpg"
 						url="https://www.linkedin.com/in/flavia-andrade/"
 						name="Flávia Andrade"
 						role="CEO"
@@ -30,7 +30,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="src/images/fabio_makita.png"
+						profileImage="../images/fabio_makita.png"
 						url="https://www.linkedin.com/in/flavia-andrade/"
 						name="Fabio Mikata"
 						role="CSO"
@@ -39,7 +39,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="src/images/luciana_tsukada.png"
+						profileImage="/images/luciana_tsukada.png"
 						url="https://www.linkedin.com/in/flavia-andrade/"
 						name="Flávia Andrade"
 						role="CEO"
