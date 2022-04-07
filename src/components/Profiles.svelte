@@ -29,7 +29,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/fabio_makita.png"
+						profileImage="./fabio_makita.png"
 						url="https://www.linkedin.com/in/f%C3%A1bio-makita-kiyan-47431629/"
 						name="Fábio Mikata"
 						role="CSO"
@@ -38,7 +38,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/luciana_tsukada.png"
+						profileImage="./luciana_tsukada.png"
 						url="https://www.linkedin.com/in/luciana-mari-tsukada-27830a52/"
 						name="Luciana Tsukada"
 						role="COO"
@@ -47,7 +47,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/luciana_fischer.jpg"
+						profileImage="./luciana_fischer.jpg"
 						url="https://www.linkedin.com/in/luciana-zamith-fischer-9343902/"
 						name="Luciana Fischer"
 						role="CLO"
@@ -56,7 +56,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/joe_woods.jpg"
+						profileImage="./joe_woods.jpg"
 						url="https://www.linkedin.com/in/joewoods1/"
 						name="Joe Woods"
 						role="Head of US Strategy"
@@ -65,7 +65,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/aliya_esmail.jpg"
+						profileImage="./aliya_esmail.jpg"
 						url="https://www.linkedin.com/in/aliya-esmail-%F0%9F%92%AA%F0%9F%8F%BC-85708828/"
 						name="Aliya Esmail"
 						role="Head of US Growth Hacking Strategy"
@@ -74,7 +74,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/jax_fetters.jpeg"
+						profileImage="./jax_fetters.jpeg"
 						url="https://www.linkedin.com/in/jax-turyna-85a83332/"
 						name="Jax Fetters"
 						role="Head of US Marketing Strategy"
@@ -83,7 +83,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/rene_bonomi.jpeg"
+						profileImage="./rene_bonomi.jpeg"
 						url="https://www.linkedin.com/in/renebonomi/"
 						name="Rene Bonomi"
 						role="Startups Strategic CFO"
@@ -101,7 +101,7 @@
 			>
 				<li>
 					<Profile
-						profileImage="./images/lidia_hernandez.jpeg"
+						profileImage="./lidia_hernandez.jpeg"
 						url="https://www.linkedin.com/in/lhernandez14/"
 						name="Lidia Hernandez"
 						role="Head of Branding Design"
@@ -110,7 +110,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/jp_caruso.jpeg"
+						profileImage="./jp_caruso.jpeg"
 						url="https://www.linkedin.com/in/jpcaruso/"
 						name="JP Caruso"
 						role="Head of Branding Content"
@@ -119,7 +119,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/thais_scholz.jpeg"
+						profileImage="./thais_scholz.jpeg"
 						url="https://www.linkedin.com/in/thais-scholz-3b473569/"
 						name="Thais Scholz"
 						role="Project Manager"
@@ -137,7 +137,7 @@
 			>
 				<li>
 					<Profile
-						profileImage="./images/luciana_fischer.jpg"
+						profileImage="./luciana_fischer.jpg"
 						url="https://www.linkedin.com/in/luciana-zamith-fischer-9343902/"
 						name="Luciana Fischer"
 						role="Immigration"
@@ -146,7 +146,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/ricardo_remer.jpg"
+						profileImage="./ricardo_remer.jpg"
 						url="https://www.linkedin.com/in/ricardo-remer-9a515815/"
 						name="Ricardo Remer"
 						role="IP"
@@ -155,7 +155,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/eleanor_martin.jpeg"
+						profileImage="./eleanor_martin.jpeg"
 						url="https://www.linkedin.com/in/eleanor-martin/"
 						name="Eleanor Martin"
 						role="Business"
@@ -173,7 +173,7 @@
 			>
 				<li>
 					<Profile
-						profileImage="./images/daniel_ibri.jpg"
+						profileImage="./daniel_ibri.jpg"
 						url="https://www.linkedin.com/in/danielibri/"
 						name="Daniel Ibri"
 						role="VC"
@@ -182,7 +182,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/stuart_robles.jpeg"
+						profileImage="./stuart_robles.jpeg"
 						url="https://www.linkedin.com/in/tatarobles/"
 						name="Stuart Robles"
 						role="M&A"
@@ -191,7 +191,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/fabiola_bueno.jpg"
+						profileImage="./fabiola_bueno.jpg"
 						url="https://www.linkedin.com/in/fab%C3%ADola-bueno-a55394/"
 						name="Fabiola Bueno"
 						role="EB-5 Investment"
@@ -200,7 +200,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/daniel_lange.jpeg"
+						profileImage="./daniel_lange.jpeg"
 						url="https://www.linkedin.com/in/daniel-lange-89260316/"
 						name="Daniel Lange"
 						role="Corporate Innovation"
@@ -209,7 +209,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/alexandre_mosquim.jpg"
+						profileImage="./alexandre_mosquim.jpg"
 						url="https://www.linkedin.com/in/amosquim/"
 						name="Alexandre Mosquim"
 						role="Corporate Innovation"
@@ -218,7 +218,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/alexandre_grenteski.png"
+						profileImage="./alexandre_grenteski.png"
 						url="https://www.linkedin.com/in/alexandregrenteski/"
 						name="Alexandre Grenteski"
 						role="Corporate Innovation"
@@ -227,7 +227,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/vitor_mondo.jpeg"
+						profileImage="./vitor_mondo.jpeg"
 						url="https://www.linkedin.com/in/vitormondo/"
 						name="Vitor Mondo"
 						role="Ag Innovation"
@@ -236,7 +236,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./images/olympio_achilles.jpeg"
+						profileImage="./olympio_achilles.jpeg"
 						url="https://www.linkedin.com/in/olympio-achilles-f-mello-40806824/"
 						name="Olympio Achilles"
 						role="Space / Airspace / Defense Innovation"
