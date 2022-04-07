@@ -4,7 +4,6 @@
 	import Quote from './../components/quote.svelte';
 	import HeroWithIcons from './../components/HeroWithIcons.svelte';
 	import Profiles from './../components/Profiles.svelte';
-	import PriceCards from './../components/PriceCards.svelte';
 	import ContentWithImage from './../components/ContentWithImage.svelte';
 	import Content from './../components/Content.svelte';
 	import Brands from './../components/Brands.svelte';
@@ -22,7 +21,6 @@
 		<Quote />
 		<HeroWithIcons />
 		<ContentWithImage />
-		<PriceCards />
 		<Profiles />
 		<HeaderHero
 			header="Many of these solutions remain unknown, becoming lost because of stigmas associated with emerging countries. Until now."
