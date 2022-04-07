@@ -173,74 +173,74 @@
 			>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/daniel_ibri.jpg"
+						url="https://www.linkedin.com/in/danielibri/"
+						name="Daniel Ibri"
+						role="VC"
+						extra="Mindset Ventures"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/stuart_robles.jpeg"
+						url="https://www.linkedin.com/in/tatarobles/"
+						name="Stuart Robles"
+						role="M&A"
+						extra="Briggs Capital"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/fabiola_bueno.jpg"
+						url="https://www.linkedin.com/in/fab%C3%ADola-bueno-a55394/"
+						name="Fabiola Bueno"
+						role="EB-5 Investment"
+						extra="The Group Research"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/daniel_lange.jpeg"
+						url="https://www.linkedin.com/in/daniel-lange-89260316/"
+						name="Daniel Lange"
+						role="Corporate Innovation"
+						extra="BOSCH North America"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/alexandre_mosquim.jpg"
+						url="https://www.linkedin.com/in/amosquim/"
+						name="Alexandre Mosquim"
+						role="Corporate Innovation"
+						extra="Albert Einstein Hospital"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/alexandre_grenteski.png"
+						url="https://www.linkedin.com/in/alexandregrenteski/"
+						name="Alexandre Grenteski"
+						role="Corporate Innovation"
+						extra="Unimed"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/vitor_mondo.jpeg"
+						url="https://www.linkedin.com/in/vitormondo/"
+						name="Vitor Mondo"
+						role="Ag Innovation"
+						extra="Ag Innovation"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/olympio_achilles.jpeg"
+						url="https://www.linkedin.com/in/olympio-achilles-f-mello-40806824/"
+						name="Olympio Achilles"
+						role="Space / Airspace / Defense Innovation"
+						extra="Embraer / Air Force"
 					/>
 				</li>
 			</ul>
