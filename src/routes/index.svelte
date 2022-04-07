@@ -1,6 +1,6 @@
 <script>
   import Nav from './../components/nav.svelte';
-  import HeaderHero from './../components/HeaderHero.svelte'
+  import HeaderHero from './../components/HeaderHero.svelte';
   import Quote from './../components/Quote.svelte';
   import HeroWithIcons from './../components/HeroWithIcons.svelte';
   import Profiles from './../components/Profiles.svelte';
