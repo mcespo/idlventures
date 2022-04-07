@@ -16,12 +16,11 @@
 				<h2 class="text-2xl font-extrabold tracking-tight">Strategy</h2>
 			</div>
 			<ul
-				role="list"
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"
 			>
 				<li>
 					<Profile
-						profileImage="./../images/flavia_andrade.jpg"
+						profileImage="./images/flavia_andrade.jpg"
 						url="https://www.linkedin.com/in/flavia-andrade/"
 						name="Flávia Andrade"
 						role="CEO"
@@ -30,64 +29,64 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="../images/fabio_makita.png"
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Fabio Mikata"
+						profileImage="./images/fabio_makita.png"
+						url="https://www.linkedin.com/in/f%C3%A1bio-makita-kiyan-47431629/"
+						name="Fábio Mikata"
 						role="CSO"
 						extra=""
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage="/images/luciana_tsukada.png"
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/luciana_tsukada.png"
+						url="https://www.linkedin.com/in/luciana-mari-tsukada-27830a52/"
+						name="Luciana Tsukada"
+						role="COO"
 						extra=""
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage="src/images/luciana_fischer.jpg"
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/luciana_fischer.jpg"
+						url="https://www.linkedin.com/in/luciana-zamith-fischer-9343902/"
+						name="Luciana Fischer"
+						role="CLO"
 						extra=""
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage="src/images/joe_woods.jpg"
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/joe_woods.jpg"
+						url="https://www.linkedin.com/in/joewoods1/"
+						name="Joe Woods"
+						role="Head of US Strategy"
 						extra=""
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/aliya_esmail.jpg"
+						url="https://www.linkedin.com/in/aliya-esmail-%F0%9F%92%AA%F0%9F%8F%BC-85708828/"
+						name="Aliya Esmail"
+						role="Head of US Growth Hacking Strategy"
 						extra=""
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage="src/images/jax_fetters.jpeg"
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/jax_fetters.jpeg"
+						url="https://www.linkedin.com/in/jax-turyna-85a83332/"
+						name="Jax Fetters"
+						role="Head of US Marketing Strategy"
 						extra=""
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage="src/images/rene_bonomi.jpeg"
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/rene_bonomi.jpeg"
+						url="https://www.linkedin.com/in/renebonomi/"
+						name="Rene Bonomi"
+						role="Startups Strategic CFO"
 						extra=""
 					/>
 				</li>
@@ -95,36 +94,35 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Strategy</h2>
+				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Execution</h2>
 			</div>
 			<ul
-				role="list"
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"
 			>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/lidia_hernandez.jpeg"
+						url="https://www.linkedin.com/in/lhernandez14/"
+						name="Lidia Hernandez"
+						role="Head of Branding Design"
 						extra=""
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/jp_caruso.jpeg"
+						url="https://www.linkedin.com/in/jpcaruso/"
+						name="JP Caruso"
+						role="Head of Branding Content"
 						extra=""
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
+						profileImage="./images/thais_scholz.jpeg"
+						url="https://www.linkedin.com/in/thais-scholz-3b473569/"
+						name="Thais Scholz"
+						role="Project Manager"
 						extra=""
 					/>
 				</li>
@@ -132,47 +130,45 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Strategy</h2>
+				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Legal</h2>
 			</div>
 			<ul
-				role="list"
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"
 			>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/luciana_fischer.jpg"
+						url="https://www.linkedin.com/in/luciana-zamith-fischer-9343902/"
+						name="Luciana Fischer"
+						role="Immigration"
+						extra="HTFL"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/ricardo_remer.jpg"
+						url="https://www.linkedin.com/in/ricardo-remer-9a515815/"
+						name="Ricardo Remer"
+						role="IP"
+						extra="Remer Villaça & Nogueira"
 					/>
 				</li>
 				<li>
 					<Profile
-						profileImage=""
-						url="https://www.linkedin.com/in/flavia-andrade/"
-						name="Flávia Andrade"
-						role="CEO"
-						extra=""
+						profileImage="./images/eleanor_martin.jpeg"
+						url="https://www.linkedin.com/in/eleanor-martin/"
+						name="Eleanor Martin"
+						role="Business"
+						extra="Winthrop & Weinstine P.A."
 					/>
 				</li>
 			</ul>
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Strategy</h2>
+				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Advisors</h2>
 			</div>
 			<ul
-				role="list"
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"
 			>
 				<li>

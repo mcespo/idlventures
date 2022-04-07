@@ -7,11 +7,11 @@
 </script>
 
 <div class="space-y-6">
-	<img class="mx-auto h-40 w-40 rounded-full xl:w-52 xl:h-52" src={profileImage} alt={name} />
+	<img class="mx-auto h-40 w-40 rounded-full xl:w-52 xl:h-52" src="{profileImage}" alt="profile image of {name}" />
 	<div class="space-y-2">
 		<ul class="flex justify-center space-x-5">
 			<li>
-				<a href={url} rel="external" class="text-gray-400 hover:text-gray-500">
+				<a href={url} rel="external" class="text-idl-blue hover:text-idl-gray">
 					<span class="sr-only">LinkedIn</span>
 					<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
 						<path
@@ -24,10 +24,10 @@
 			</li>
 		</ul>
 		<div class="text-lg leading-6 font-medium space-y-1">
-			<h3>{name}</h3>
-			<p class="text-indigo-600">{role}</p>
+			<h3 class="text-idl-orange text-2xl">{name}</h3>
+			<p class="text-lg font-semibold">{role}</p>
 			{#if extra}
-				<p class="text-indigo-600">{extra}</p>
+				<p class="italic">{extra}</p>
 			{/if}
 		</div>
 	</div>
