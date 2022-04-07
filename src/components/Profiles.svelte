@@ -20,7 +20,7 @@
 			>
 				<li>
 					<Profile
-						profileImage="./images/flavia_andrade.jpg"
+						profileImage="./flavia_andrade.jpg"
 						url="https://www.linkedin.com/in/flavia-andrade/"
 						name="Flávia Andrade"
 						role="CEO"
