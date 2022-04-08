@@ -1,5 +1,5 @@
 <script>
-	import backgroundImage from './../images/Waves_Background_Hero_2.jpg';
+	import backgroundImage from './../images/Waves_Background_Hero_1.jpg';
 	export let header;
 	export let subheader;
 </script>
