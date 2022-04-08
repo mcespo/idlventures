@@ -2,7 +2,7 @@
 	import mapImage from './../images/Timeline-Map.jpg';
 </script>
 
-<section class="relative bg-white">
+<section id="platform" class="relative bg-white">
 	<div class="lg:absolute lg:inset-0">
 		<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 			<img
@@ -21,13 +21,20 @@
 					IDL Venture's (IDL) INTERNATIONALIZATION PLATFORM
 				</h3>
 				<p class="mt-8 text-lg text-gray-500">
-					2 Major US Regions in 12 Months <br />28+ Jobs Created <br />US Universities Partnerships
-					for Internships and Technology Transfer
+					<strong>2 Major US Regions in 12 Months <br />28+ Jobs Created <br />US Universities Partnerships
+					for Internships and Technology Transfer</strong>
 				</p>
-				<div class="mt-5 prose prose-indigo text-gray-500">
-					<p>Timeline</p>
-					<p>First 6 months<br />Landing in Chicago<br />Expanding to the Midwest</p>
+				<h4 class="font-bold">Timeline</h4>
+				<aside class="grid grid-cols-2">
+					<div class="mt-5 prose prose-indigo text-gray-500">
+					<h5 class="font-bold">First 6 months</h5>
+					<p>Landing in Chicago<br />Expanding to the Midwest</p>
 				</div>
+				<div class="mt-5 prose prose-indigo text-gray-500">
+					<h5 class="font-bold">First 6 months</h5>
+					<p>Landing in NY<br />Expanding to the East Coast</p>
+				</div>
+				</aside>
 			</div>
 		</div>
 	</div>

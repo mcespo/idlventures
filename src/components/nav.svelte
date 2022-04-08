@@ -5,7 +5,7 @@
 	}
 </script>
 
-<header class="bg-white shadow">
+<header class="bg-white shadow top-0 sticky z-10">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6">
 		<div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
 			<div class="flex justify-start lg:w-0 lg:flex-1">
@@ -58,7 +58,7 @@
 				</button>
 			</div>
 			<nav class="hidden md:flex space-x-10">
-				<a href="/" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
+				<a href="#platform" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
 					>Platform</a
 				>
 				<a href="/" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
@@ -132,7 +132,7 @@
 				<div class="mt-6">
 					<nav class="grid gap-y-8">
 						<a
-							href="/"
+							href="#platform"
 							class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
 							>Platform</a
 						>
