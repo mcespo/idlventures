@@ -6,28 +6,22 @@
 		<div class="text-lg max-w-prose mx-auto">
 			<h1>
 				<span
-					class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase"
-					>Introducing</span
-				>
-				<span
-					class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
-					>JavaScript for Beginners</span
+					class="mt-2 block text-2xl text-center leading-8 font-bold tracking-tight"
+					>IDL Ventures (Chicago) + Ignition Capital (NY) Joined Forces to Create a Joint Venture Fund</span
 				>
 			</h1>
-			<p class="mt-8 text-xl text-gray-500 leading-8">
-				Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh
-				dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in
-				viverra scelerisque eget. Eleifend egestas fringilla sapien.
-			</p>
+			<p class="mt-8 text-xl text-gray-500 leading-8">We invest in the internationalization of deep technologies<br> primarily from Emerging Countries to the US</p>
+			<ul>
+				<li>Enriching the American STEM innovation ecosystem</li>
+				<li>Providing investors’ access to validated early-stage deep techs</li>
+				<li>Breaking paradigms</li>
+				<li>Accelerating impact solutions</li>
+				<li>And by proxy, impacting the global economy.</li>
+			</ul>
 		</div>
-		<div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-			<p>
-				Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed
-				<strong>eget risus enim</strong>. Mattis mauris semper sed amet vitae sed turpis id. Id
-				dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-				Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.
-				<a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.
-			</p>
+		<div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto grid grid-cols-2 gap-2">
+			<aside class=""><p>Team with international recognition and extensive executive expertise in internationalization, deep tech investments and development</p></aside>
+			<aside><p>Team with extensive expertise in strategic investment capital, capital raise execution, and venture growth development.</p></aside>
 		</div>
 	</div>
 </section>
