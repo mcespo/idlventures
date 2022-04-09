@@ -1,5 +1,5 @@
-<section class="bg-white">
-	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+<section id="portfolio" class="bg-white">
+	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:pb-16 lg:pt-[8rem] lg:px-8">
 		<p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
 			PORTFOLIO | COHORT I - Brazil > US
 		</p>
@@ -7,43 +7,36 @@
 			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
 				<img
 					class="max-h-12"
-					src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-					alt="Workcation"
+					src="./DASH.png"
+					alt="DASH"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
 				<img
 					class="max-h-12"
-					src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-					alt="Mirage"
+					src="DPR.png"
+					alt="DPR"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
 				<img
 					class="max-h-12"
-					src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-					alt="Tuple"
+					src="ELYM.png"
+					alt="ELYM"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
 				<img
 					class="max-h-12"
-					src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
-					alt="Laravel"
+					src="IMUNTERA.png"
+					alt="Imuntera"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
 				<img
 					class="max-h-12"
-					src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-					alt="StaticKit"
-				/>
-			</div>
-			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-				<img
-					class="max-h-12"
-					src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
-					alt="Statamic"
+					src="IRIS.png"
+					alt="IRIS"
 				/>
 			</div>
 		</div>

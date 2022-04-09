@@ -2,7 +2,7 @@
 	import Profile from './Profile.svelte';
 </script>
 
-<section class="bg-white">
+<section id="people" class="bg-white">
 	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
@@ -123,6 +123,15 @@
 						url="https://www.linkedin.com/in/thais-scholz-3b473569/"
 						name="Thais Scholz"
 						role="Project Manager"
+						extra=""
+					/>
+				</li>
+				<li>
+					<Profile
+						profileImage="./marvin_cespedes.jpeg"
+						url="https://www.linkedin.com/in/mcespo/"
+						name="Marvin Céspedes"
+						role="Head of Software Engineering"
 						extra=""
 					/>
 				</li>

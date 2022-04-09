@@ -45,13 +45,13 @@
 				<a href="#platform" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
 					>Platform</a
 				>
-				<a href="/" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
+				<a href="#people" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
 					>People</a
 				>
-				<a href="/" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
+				<a href="#fund" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
 					>Fund</a
 				>
-				<a href="/" class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
+				<a href="#portfolio"class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
 					>Portfolio</a
 				>
 			</nav>
@@ -121,7 +121,7 @@
 							>Platform</a
 						>
 						<a
-							href="/"
+							href="#people"
 							class="uppercase text-base font-medium text-idl-gray hover:text-idl-gray-dark"
 							>People</a
 						>

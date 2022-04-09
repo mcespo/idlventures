@@ -8,8 +8,8 @@
 </script>
 
 <section class="relative bg-white py-12 md:py-14 lg:py-16">
-	<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-		<p class="mt-2 text-3xl font-black tracking-tight text-gray-900 sm:text-4xl">
+	<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-6xl lg:px-8">
+		<p class="mt-2 text-3xl font-extralight tracking-tight sm:text-4xl">
 			Every day, extraordinary people worldwide are creating unprecedented solutions, known as deep
 			or emerging technologies, to solve the world's greatest challenges, including:
 		</p>
@@ -25,7 +25,7 @@
 									<CovidVaccines width="150" />
 								</span>
 							</div>
-							<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+							<h3 class="mt-8 text-lg font-extralight tracking-tight text-gray-900">
 								COVID-19 vaccines
 							</h3>
 						</div>
@@ -42,7 +42,7 @@
 									<AutonomousCars width="150" />
 								</span>
 							</div>
-							<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+							<h3 class="mt-8 text-lg font-extralight tracking-tight text-gray-900">
 								Autonomous Vehicles
 							</h3>
 						</div>
@@ -59,7 +59,7 @@
 									<AlternativeEnergy width="150" />
 								</span>
 							</div>
-							<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+							<h3 class="mt-8 text-lg font-extralight tracking-tight text-gray-900">
 								Alternative Energy
 							</h3>
 						</div>
@@ -76,7 +76,7 @@
 									<Nanotechnology width="150" />
 								</span>
 							</div>
-							<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">Nanotechnology</h3>
+							<h3 class="mt-8 text-lg font-extralight tracking-tight text-gray-900">Nanotechnology</h3>
 						</div>
 					</div>
 				</div>
@@ -91,7 +91,7 @@
 									<ArtificialIntelligence width="150" />
 								</span>
 							</div>
-							<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+							<h3 class="mt-8 text-lg font-extralight tracking-tight text-gray-900">
 								Artificial Intelligence
 							</h3>
 						</div>
@@ -108,7 +108,7 @@
 									<AdvancedMaterials width="150" />
 								</span>
 							</div>
-							<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+							<h3 class="mt-8 text-lg font-extralight tracking-tight text-gray-900">
 								Advanced Materials
 							</h3>
 						</div>
