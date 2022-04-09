@@ -23,7 +23,7 @@
 							class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
 						>
 							<div class="mt-3 flex items-center">
-								<p class="text-white text-4xl font-extrabold tracking-tight">$5</p>
+								<p class="text-white text-4xl font-black tracking-tight">$5</p>
 								<div class="ml-4">
 									<p class="text-white text-sm">USD / mo</p>
 									<p class="text-indigo-200 text-sm">Billed yearly ($56)</p>
@@ -106,7 +106,7 @@
 							class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
 						>
 							<div class="mt-3 flex items-center">
-								<p class="text-indigo-600 text-4xl font-extrabold tracking-tight">$19</p>
+								<p class="text-indigo-600 text-4xl font-black tracking-tight">$19</p>
 								<div class="ml-4">
 									<p class="text-gray-700 text-sm">USD / mo</p>
 									<p class="text-gray-500 text-sm">Billed yearly ($220)</p>
@@ -241,7 +241,7 @@
 							class="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between lg:flex-col lg:items-start"
 						>
 							<div class="mt-3 flex items-center">
-								<p class="text-white text-4xl font-extrabold tracking-tight">$12</p>
+								<p class="text-white text-4xl font-black tracking-tight">$12</p>
 								<div class="ml-4">
 									<p class="text-white text-sm">USD / mo</p>
 									<p class="text-indigo-200 text-sm">Billed yearly ($140)</p>

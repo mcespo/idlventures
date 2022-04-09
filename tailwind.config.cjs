@@ -3,7 +3,7 @@ const config = {
 
 	theme: {
 		fontFamily: {
-			sans: ['Helvetica', 'Arial', 'sans-serif']
+			sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
 		},
 		colors: {
 			white: '#ffffff',

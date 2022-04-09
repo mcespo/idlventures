@@ -17,7 +17,7 @@
 	>
 		<div class="lg:col-start-1">
 			<div class="text-base max-w-prose mx-auto lg:max-w-lg lg:mr-4 lg:ml-0">
-				<h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+				<h3 class="mt-2 text-3xl leading-8 font-black tracking-tight text-gray-900 sm:text-4xl">
 					IDL Venture's (IDL) INTERNATIONALIZATION PLATFORM
 				</h3>
 				<p class="mt-8 text-lg text-gray-500">

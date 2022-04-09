@@ -7,6 +7,7 @@
 	import Profiles from './../components/Profiles.svelte';
 	import ContentWithImage from './../components/ContentWithImage.svelte';
 	import Content from './../components/Content.svelte';
+	import HeroWithIcons2 from './../components/HeroWithIcons2.svelte';
 	import Brands from './../components/Brands.svelte';
 	import Footer from './../components/Footer.svelte';
 </script>
@@ -30,6 +31,7 @@
 			header="Many of these solutions remain unknown, becoming lost because of stigmas associated with emerging countries. Until now."
 		/>
 		<Content />
+		<HeroWithIcons2 />
 		<Brands />
 	</main>
 </div>

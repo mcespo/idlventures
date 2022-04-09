@@ -6,14 +6,14 @@
 	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-				<h2 class="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+				<h2 class="mt-2 text-4xl leading-8 font-black tracking-tight text-gray-900 sm:text-4xl">
 					IDL Team
 				</h2>
 				<p class="mt-8 text-2xl text-gray-500">
 					Team with international recognition and extensive executive expertise in
 					internationalization, deep tech investments and development.
 				</p>
-				<h2 class="text-2xl font-extrabold tracking-tight">Strategy</h2>
+				<h2 class="text-2xl font-black tracking-tight">Strategy</h2>
 			</div>
 			<ul
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"
@@ -94,7 +94,7 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Execution</h2>
+				<h2 class="text-2xl font-black tracking-tight mt-6">Execution</h2>
 			</div>
 			<ul
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"
@@ -130,7 +130,7 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Legal</h2>
+				<h2 class="text-2xl font-black tracking-tight mt-6">Legal</h2>
 			</div>
 			<ul
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"
@@ -166,7 +166,7 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-				<h2 class="text-2xl font-extrabold tracking-tight mt-6">Advisors</h2>
+				<h2 class="text-2xl font-black tracking-tight mt-6">Advisors</h2>
 			</div>
 			<ul
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"

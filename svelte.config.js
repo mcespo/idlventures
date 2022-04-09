@@ -1,5 +1,7 @@
 import preprocess from 'svelte-preprocess';
 import netlify from '@sveltejs/adapter-netlify';
+import svg from '@poppanator/sveltekit-svg'
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,7 +14,11 @@ const config = {
 	],
 
 	kit: {
-		adapter: netlify()
+		adapter: netlify(),
+		vite: {
+			// Options are optional
+			plugins: [svg()]
+		}
 	}
 };
 
