@@ -17,27 +17,27 @@
 	>
 		<div class="lg:col-start-1">
 			<div class="text-base max-w-prose mx-auto lg:max-w-lg lg:mr-4 lg:ml-0 grid gap-10">
-				<h3 class="mt-2 text-6xl leading-8 font-bold text-white sm:text-4xl">
-					IDL Venture's (IDL) INTERNATIONALIZATION PLATFORM
+				<h3 class="mt-2 leading-8 font-bold text-white sm:text-4xl md:text-2xl lg:text-4xl">
+					IDL Venture's <br>INTERNATIONALIZATION <br>PLATFORM
 				</h3>
-				<div class="text-white flex gap-10">
-				<p class="flex flex-col">
-					<span class="text-idl-orange text-5xl font-bold">2</span>
-					<span>Major US Regions in 12 Months</span>
-				</p>
-				<p class="flex flex-col">
-					<span class="text-idl-orange text-5xl font-bold">28+</span>
-					<span>Jobs Created</span>
-				</p>
-				<p class="flex flex-col">
-					<span class="text-idl-orange text-xl font-bold">US Universities Partnerships</span>
-					<span>for Internships and Technology Transfer</span>
-				</p>
+				<div class="text-white flex flex-col md:flex-row gap-10">
+					<p class="flex flex-col">
+						<span class="text-idl-orange text-5xl font-bold">2</span>
+						<span>Major US Regions in 12 Months</span>
+					</p>
+					<p class="flex flex-col">
+						<span class="text-idl-orange text-5xl font-bold">28+</span>
+						<span>Jobs Created</span>
+					</p>
+					<p class="flex flex-col">
+						<span class="text-idl-orange text-xl font-bold">US Universities Partnerships</span>
+						<span>for Internships and Technology Transfer</span>
+					</p>
 				</div>
 				<hr class="text-white">
 				<div>
-					<h4 class="text-idl-orange text-5xl font-bold">Timeline</h4>
-					<aside class="flex items-center gap-10">
+					<h4 class="text-idl-orange text-3xl font-bold">Timeline</h4>
+					<aside class="flex items-center gap-6">
 						<div class="mt-5 text-lg text-white leading-tight">
 							<p class="font-bold m-0">First 6 months</p>
 							<p class="font-light m-0">Landing in Chicago<br />Expanding to the Midwest</p>

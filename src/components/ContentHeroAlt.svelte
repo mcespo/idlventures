@@ -1,4 +1,4 @@
-<section class="bg-idl-gray-light overflow-hidden py-12 md:py-14 lg:py-16">
+<section class="bg-idl-gray-lighter overflow-hidden py-12 md:py-14 lg:py-16">
 	<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="relative">
 			<blockquote class="mt-10">

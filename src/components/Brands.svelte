@@ -1,38 +1,38 @@
 <section id="portfolio" class="bg-white">
 	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:pb-16 lg:pt-[8rem] lg:px-8">
-		<p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
+		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-2xl">
 			PORTFOLIO | COHORT I - Brazil > US
 		</p>
 		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
 				<img
 					class="max-h-12"
 					src="./DASH.png"
 					alt="DASH"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
 				<img
 					class="max-h-12"
 					src="DPR.png"
 					alt="DPR"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
 				<img
 					class="max-h-12"
 					src="ELYM.png"
 					alt="ELYM"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
 				<img
 					class="max-h-12"
 					src="IMUNTERA.png"
 					alt="Imuntera"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
 				<img
 					class="max-h-12"
 					src="IRIS.png"
@@ -44,7 +44,7 @@
 </section>
 <section class="bg-white">
 	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-		<p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
+		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-2xl">
 			CHICAGO and ILLINOIS ECOSYSTEM SUPPORT SAMPLE
 		</p>
 		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">

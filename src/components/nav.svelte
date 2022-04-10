@@ -12,7 +12,7 @@
 			<div class="flex justify-start lg:w-0 lg:flex-1">
 				<a href="/">
 					<h1 class="sr-only">IDL Ventures</h1>
-					<IDLVentures height="3rem" />
+					<IDLVentures height="4rem" />
 				</a>
 			</div>
 			<div class="-mr-2 -my-2 md:hidden">

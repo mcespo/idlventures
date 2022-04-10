@@ -13,6 +13,7 @@ const config = {
 			'idl-gray-dark': '#444345',
 			'idl-gray-medium': '#979899',
 			'idl-gray-light': '#d9d8d6',
+			'idl-gray-lighter': '#f1f2f2',
 			'idl-red-orange': '#e8562a',
 			'idl-yellow': '#f9ae19',
 			'idl-green': '#57bd91',

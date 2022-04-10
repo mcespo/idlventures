@@ -9,7 +9,7 @@
 				<h2 class="mt-2 text-4xl leading-8 font-black tracking-tight text-gray-900 sm:text-4xl">
 					IDL Team
 				</h2>
-				<p class="mt-8 text-2xl text-gray-500">
+				<p class="mt-8 pb-8 text-2xl text-gray-500">
 					Team with international recognition and extensive executive expertise in
 					internationalization, deep tech investments and development.
 				</p>
