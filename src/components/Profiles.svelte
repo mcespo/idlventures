@@ -10,8 +10,8 @@
 					IDL Team
 				</h2>
 				<p class="mt-8 pb-8 text-2xl text-gray-500">
-					Team with international recognition and extensive executive expertise in
-					internationalization, deep tech investments and development.
+					Team with international recognition and extensive executive expertise <span class="lg:block">in
+					internationalization, deep tech investments and development.</span>
 				</p>
 				<h2 class="text-2xl font-black tracking-tight">Strategy</h2>
 			</div>
@@ -227,7 +227,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./alexandre_grenteski.png"
+						profileImage="./alexandre_grenteski.jpg"
 						url="https://www.linkedin.com/in/alexandregrenteski/"
 						name="Alexandre Grenteski"
 						role="Corporate Innovation"

@@ -10,8 +10,8 @@
 <section class="relative bg-white py-12 md:py-14 lg:py-16">
 	<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-6xl lg:px-8">
 		<p class="mt-2 font-extralight text-3xl sm:text-4xl">
-			<span class="leading-tight">Every day, extraordinary people worldwide are creating unprecedented solutions, known as deep
-			or emerging technologies, to solve the world's greatest challenges, including:</span>
+			<span class="leading-tight">Every day, extraordinary people worldwide are creating <span class="lg:block">unprecedented solutions, known as deep
+			or emerging technologies, </span><span class="lg:block">to solve the world's greatest challenges, including:</span></span>
 		</p>
 		<div class="mt-12">
 			<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

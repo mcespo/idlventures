@@ -17,8 +17,8 @@
 	>
 		<div class="lg:col-start-1">
 			<div class="text-base max-w-prose mx-auto lg:max-w-lg lg:mr-4 lg:ml-0 grid gap-10">
-				<h3 class="mt-2 leading-8 font-bold text-white sm:text-4xl md:text-2xl lg:text-4xl">
-					IDL Venture's <br>INTERNATIONALIZATION <br>PLATFORM
+				<h3 class="mt-2 leading-8 font-bold text-white text-4xl">
+					IDL Venture's PLATFORM
 				</h3>
 				<div class="text-white flex flex-col md:flex-row gap-10">
 					<p class="flex flex-col">
