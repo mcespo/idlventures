@@ -9,7 +9,7 @@
 		<img class="w-full h-full object-cover" src={backgroundImage} alt="" />
 	</div>
 	<div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 lg:py-56">
-		<h1 class="text-4xl font-bold text-white sm:text-5xl lg:text-6xl max-w-6xl">
+		<h1 class="text-4xl font-bold text-white sm:text-5xl lg:text-5xl max-w-6xl">
 			{@html header}
 		</h1>
 		{#if subheader}

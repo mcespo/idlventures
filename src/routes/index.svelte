@@ -18,7 +18,7 @@
 	<Nav />
 	<main class="lg:relative">
 		<HeaderHero
-			header='<span class="leading-tight">Finally, an Internationalization Platform <span class="lg:block">Designed for Early-Stage Deep Techs.</span></span>'
+			header='<span class="leading-tight">Finally, an Internationalization Platform and fund <span class="lg:block">Designed for Early-Stage Deep Techs.</span></span>'
 			subheader="IDL Ventures' internationalization platform provides all resources to meet deep techs' most fundamental needs."
 		/>
 		<ContentHero id=""
