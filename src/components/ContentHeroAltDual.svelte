@@ -4,8 +4,8 @@
 </script>
 
 <section class="bg-idl-gray-lighter overflow-hidden pb-12 md:pb-14 lg:pb-16">
-	<div class="sm:mx-auto sm:max-w-xl lg:max-w-6xl flex items-center justify-center gap-8 px-4">
-		<div class="gap-4 flex flex-col items-start m-0">
+	<div class="sm:mx-auto sm:max-w-xlmax-w-6xl flex flex-col md:flex-row items-center justify-center gap-8 px-4">
+		<div class="gap-4 flex flex-col items-start m-0 md:border-r-2 border-idl-gray">
 			<IDLVentures height="5rem" />
 			<p class="font-extralight text-2xl sm:text-4xl">
 				Team with international recognition and extensive executive expertise in internationalization, deep tech investments and development.
