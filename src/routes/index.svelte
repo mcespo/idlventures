@@ -8,6 +8,7 @@
 	import ContentWithImage from './../components/ContentWithImage.svelte';
 	import HeroWithIcons2 from './../components/HeroWithIcons2.svelte';
 	import ContentHeroAlt from './../components/ContentHeroAlt.svelte';
+	import ContentHeroAltDual from './../components/ContentHeroAltDual.svelte';
 	import Brands from './../components/Brands.svelte';
 	import Footer from './../components/Footer.svelte';
 </script>
@@ -31,6 +32,7 @@
 		header="Many of these solutions remain unknown, becoming lost because of stigmas associated with emerging countries. Until now."
 		/>
 		<ContentHeroAlt />
+		<ContentHeroAltDual />
 		<HeroWithIcons2 />
 		<hr>
 		<Brands />
