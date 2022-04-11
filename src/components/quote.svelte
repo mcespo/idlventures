@@ -5,7 +5,7 @@
 				<div class="max-w-6xl mx-auto text-center leading-9 font-medium text-5xl">
 					<p class="font-bold mb-6 leading-tight">
 						<q>97% of deep tech ventures contribute to at least <span class="lg:block">1 of the UN’s sustainable development
-						goals.”</span></q>
+						goals.</span></q>
 					</p>
 					<p class="text-2xl font-extralight">Deep Tech and the Great Wave of Innovation, BCG</p>
 				</div>
