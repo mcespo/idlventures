@@ -18,12 +18,12 @@
 		<div class="lg:col-start-1">
 			<div class="text-base max-w-prose mx-auto lg:max-w-lg lg:mr-4 lg:ml-0 grid gap-10">
 				<h3 class="mt-2 leading-8 font-bold text-white text-4xl">
-					IDL Venture's PLATFORM
+					IDL Venture’s Platform
 				</h3>
 				<div class="text-white flex flex-col md:flex-row gap-10">
 					<p class="flex flex-col">
 						<span class="text-idl-orange text-5xl font-bold">2</span>
-						<span>Major US Regions in 12 Months</span>
+						<span>Major US Regions <br>in 12 Months</span>
 					</p>
 					<p class="flex flex-col">
 						<span class="text-idl-orange text-5xl font-bold">28+</span>

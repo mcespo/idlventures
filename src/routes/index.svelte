@@ -17,21 +17,22 @@
 	<Nav />
 	<main class="lg:relative">
 		<HeaderHero
-			header='<span class="leading-tight">Finally, an Internationalization Platform. <span class="lg:block">Designed for Early-Stage Deep Techs</span></span>'
+			header='<span class="leading-tight">Finally, an Internationalization Platform. <span class="lg:block">Designed for Early-Stage Deep Techs.</span></span>'
 			subheader="IDL Ventures' internationalization platform provides all resources to meet deep techs' most fundamental needs."
 		/>
 		<ContentHero
-			header='<span class="lg:block">We enrich ecosystems with more </span><span class="lg:block">and faster impact solutions, </span><span class="lg:block">such as to combat climate change, </span><span class="lg:block">crises, and food scarcity.</span>'
+			header='<span class="lg:block">We enrich ecosystems with more </span><span class="lg:block">and faster impact solutions, </span><span class="lg:block">such as to combat climate change, </span><span class="lg:block">health crises, and food scarcity.</span>'
 		/>
 		<Quote />
 		<HeroWithIcons />
 		<ContentWithImage />
 		<Profiles />
-		<ContentHeroAlt />
 		<ContentHero
-			header="Many of these solutions remain unknown, becoming lost because of stigmas associated with emerging countries. Until now."
+		header="Many of these solutions remain unknown, becoming lost because of stigmas associated with emerging countries. Until now."
 		/>
+		<ContentHeroAlt />
 		<HeroWithIcons2 />
+		<hr>
 		<Brands />
 	</main>
 </div>

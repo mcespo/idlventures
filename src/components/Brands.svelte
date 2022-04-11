@@ -1,6 +1,6 @@
 <section id="portfolio" class="bg-white">
 	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:pb-16 lg:pt-[8rem] lg:px-8">
-		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-2xl">
+		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-4xl">
 			PORTFOLIO | COHORT I - Brazil > US
 		</p>
 		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
@@ -44,7 +44,7 @@
 </section>
 <section class="bg-white">
 	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-2xl">
+		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-4xl">
 			CHICAGO and ILLINOIS ECOSYSTEM SUPPORT SAMPLE
 		</p>
 		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
