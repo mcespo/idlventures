@@ -13,7 +13,11 @@
 			{@html header}
 		</h1>
 		{#if subheader}
-			<p class="my-6 text-4xl font-extralight text-white max-w-5xl">{subheader}</p>
+			<p class="my-6 text-4xl font-extralight text-white max-w-5xl">
+				<span class="leading-tight">
+					{subheader}
+				</span>
+			</p>
 		{/if}
 		<!-- <div class="rounded-md w-40">
 			<a href="/" class="flex border-0 items-center justify-center px-8 py-3 text-xl uppercase rounded-md text-white bg-idl-orange md:py-4 md:text-lg md:px-10">
