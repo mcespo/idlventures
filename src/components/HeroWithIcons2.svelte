@@ -9,7 +9,7 @@
 <section class="relative bg-white py-12 md:py-14 lg:pt-[8rem] lg:pb-16">
 	<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
 		<p class="mt-2 text-3xl font-black tracking-tight text-gray-900 sm:text-4xl">
-			<span class="leading-tight">We invest in the internationalization of deep technologies<br><span class="text-idl-orange">primarily from Emerging Countries to the US</span></span>
+			<span class="leading-tight">We invest in the internationalization of deep technologies<br><span class="text-idl-orange">primarily from Emerging Countries to the US.</span></span>
 		</p>
 		<div class="mt-12">
 			<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:flex lg:flex-wrap lg:justify-evenly lg:gap-x-28">

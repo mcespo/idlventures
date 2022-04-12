@@ -26,7 +26,7 @@
 								</span>
 							</div>
 							<h3 class="mt-8 text-lg tracking-tight text-gray-900">
-								COVID-19 vaccines
+								COVID-19 Vaccines
 							</h3>
 						</div>
 					</div>

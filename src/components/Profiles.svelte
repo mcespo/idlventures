@@ -14,7 +14,7 @@
 						Team with international recognition and extensive executive expertise <span class="lg:block">in internationalization, deep tech investments and development.</span>
 					</span>
 				</p>
-				<h2 class="text-2xl font-black tracking-tight">Strategy</h2>
+				<h2 class="text-2xl pt-10 font-black tracking-tight">Strategy</h2>
 			</div>
 			<ul
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-6xl"
@@ -95,7 +95,7 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
-				<h2 class="text-2xl font-black tracking-tight mt-6">Execution</h2>
+				<h2 class="text-2xl font-black tracking-tight mt-4 pt-10">Execution</h2>
 			</div>
 			<ul
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-6xl"
@@ -140,7 +140,7 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
-				<h2 class="text-2xl font-black tracking-tight mt-6">Legal</h2>
+				<h2 class="text-2xl font-black tracking-tight mt-4 pt-10">Legal</h2>
 			</div>
 			<ul
 				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-6xl"
@@ -176,10 +176,10 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-				<h2 class="text-2xl font-black tracking-tight mt-6">Advisors</h2>
+				<h2 class="text-2xl font-black tracking-tight mt-4 pt-10">Advisors</h2>
 			</div>
 			<ul
-				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl"
+				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-6xl"
 			>
 				<li>
 					<Profile

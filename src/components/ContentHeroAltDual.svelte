@@ -4,10 +4,10 @@
 </script>
 
 <section class="bg-idl-gray-lighter overflow-hidden pb-12 md:pb-14 lg:pb-16">
-	<div class="sm:mx-auto sm:max-w-xlmax-w-6xl flex flex-col md:flex-row items-center justify-center gap-8 px-4">
-		<div class="gap-4 flex flex-col items-start m-0 md:border-r-2 border-idl-gray">
+	<div class="sm:mx-auto sm:max-w-xlmax-w-6xl flex flex-col md:flex-row items-center justify-center px-4">
+		<div class="max-w-lg mb-16 md:mb-0 gap-4 flex flex-col items-start m-0 md:border-r-2 md:pr-4 border-idl-gray">
 			<IDLVentures height="5rem" />
-			<p class="font-extralight text-2xl sm:text-4xl">
+			<p class="text-1xl">
 				Team with international recognition and extensive executive expertise in internationalization, deep tech investments and development.
 			</p>
 			<aside class="flex gap-4">
@@ -19,9 +19,9 @@
 				</p>
 			</aside>
 		</div>
-		<div class="gap-4 flex flex-col items-start m-0">
+		<div class="max-w-lg gap-4 flex flex-col items-start m-0 md:pl-4">
 			<img class="h-16" src="{Ignition}" alt="Ignition Capital" />
-			<p class="font-extralight text-2xl sm:text-4xl">
+			<p class="text-1xl">
 Team with extensive expertise in
 strategic investment capital,
 capital raise execution, and

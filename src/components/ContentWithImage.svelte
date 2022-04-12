@@ -13,7 +13,7 @@
 		</div>
 	</div>
 	<div
-		class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:pt-[8rem] lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2"
+		class="relative py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2"
 	>
 		<div class="lg:col-start-1">
 			<div class="text-base max-w-prose mx-auto lg:max-w-lg lg:mr-4 lg:ml-0 grid gap-10">
