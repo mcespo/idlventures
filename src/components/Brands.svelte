@@ -27,7 +27,7 @@
 		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-4xl">
 			PORTFOLIO | COHORT I - Brazil > US
 		</p>
-		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
+		<div class="mt-6 grid grid-cols-1 gap-0.5 md:grid-cols-4 lg:mt-8">
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-48 h-fit"
@@ -92,7 +92,7 @@
 		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-4xl">
 			CHICAGO and ILLINOIS ECOSYSTEM SUPPORT SAMPLE
 		</p>
-		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
+		<div class="mt-6 grid grid-cols-1 gap-0.5 md:grid-cols-4 lg:mt-8">
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-48 h-fit"
