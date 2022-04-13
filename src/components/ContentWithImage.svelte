@@ -30,7 +30,7 @@
 						<span>Jobs Created</span>
 					</p>
 					<p class="flex flex-col">
-						<span class="text-idl-orange text-xl font-bold">US Universities Partnerships</span>
+						<span class="text-idl-orange text-xl font-bold">US University Partnerships</span>
 						<span>for Internships and Technology Transfer</span>
 					</p>
 				</div>

@@ -60,7 +60,7 @@
 						profileImage="./joe_woods.jpg"
 						url="https://www.linkedin.com/in/joewoods1/"
 						name="Joe Woods"
-						role="Head of US Strategy"
+						role="Head of US Business Strategy"
 						extra=""
 					/>
 				</li>
