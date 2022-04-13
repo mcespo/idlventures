@@ -32,7 +32,7 @@
 					<Profile
 						profileImage="./fabio_makita.png"
 						url="https://www.linkedin.com/in/f%C3%A1bio-makita-kiyan-47431629/"
-						name="Fábio Mikata"
+						name="Fábio Makita"
 						role="CSO"
 						extra=""
 					/>

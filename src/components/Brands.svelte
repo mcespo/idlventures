@@ -1,42 +1,87 @@
+<script>
+	import Desh from './../images/DESH 2.png';
+	import Dpr from './../images/DPR 2.png';
+	import Elym from './../images/ELYM 2.png';
+	import Imuntera from './../images/IMUNTERA 2.png';
+	import Iris from './../images/IRIS 2.png';
+	import OmniElectronica from './../images/Omni 2.png';
+	import SchoolGuardian from './../images/School Guardian 2.png';
+	import WeCare from './../images/WeCare 2.png';
+
+	import Logo1871 from './../images/1871.png';
+	import Logo2112 from './../images/2112.png';
+	import AmpedKitchen from './../images/amped_kitchens.png';
+	import Brasil from './../images/brasil_consulate.jpeg';
+	import Ccc from './../images/ccc.jpg';
+	import Connectory from './../images/connectory.png';
+	import Dpi from './../images/dpi.png';
+	import Matter from './../images/matter.jpg';
+	import Mhub from './../images/mhub.png';
+	import Pilot from './../images/pilot.jpg';
+	import Polsky from './../images/polsky.png';
+	import Wbc from './../images/wbc.png.crdownload.png';
+</script>
+
 <section id="portfolio" class="bg-white">
 	<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:pb-16 lg:pt-[8rem] lg:px-8">
 		<p class="text-center font-semibold uppercase text-gray-600 tracking-wider text-4xl">
 			PORTFOLIO | COHORT I - Brazil > US
 		</p>
-		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
+		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./DASH.png"
+					class="w-48 h-fit"
+					src="{Desh}"
 					alt="DASH"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="DPR.png"
+					class="w-48 h-fit"
+					src="{Dpr}"
 					alt="DPR"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="ELYM.png"
+					class="w-48 h-fit"
+					src="{Elym}"
 					alt="ELYM"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="IMUNTERA.png"
+					class="w-48 h-fit"
+					src="{Imuntera}"
 					alt="Imuntera"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="IRIS.png"
+					class="w-48 h-fit"
+					src="{Iris}"
 					alt="IRIS"
+				/>
+			</div>
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
+				<img
+					class="w-48 h-fit"
+					src="{OmniElectronica}"
+					alt="Omni Electronica"
+				/>
+			</div>
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
+				<img
+					class="w-48 h-fit"
+					src="{SchoolGuardian}"
+					alt="School Guardian"
+				/>
+			</div>
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
+				<img
+					class="w-48 h-fit"
+					src="{WeCare}"
+					alt="School Guardian"
 				/>
 			</div>
 		</div>
@@ -48,102 +93,88 @@
 			CHICAGO and ILLINOIS ECOSYSTEM SUPPORT SAMPLE
 		</p>
 		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./wbc.png.crdownload.png"
-					alt="World Business Chicago"
+					class="w-48 h-fit"
+					src="{Logo1871}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./polsky.png"
-					alt="Polsky, Center for Entrepreneurship and Innovation. The University of Chicago"
+					class="w-48 h-fit"
+					src="{Logo2112}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./pilot.jpg"
-					alt="Pilot Project, Brewery Incubator & Tasting Room"
+					class="w-48 h-fit"
+					src="{AmpedKitchen}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./mhub.png"
-					alt="mHUB"
+					class="w-48 h-fit"
+					src="{Brasil}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./matter.jpg"
-					alt="MATTER"
+					class="w-48 h-fit"
+					src="{Ccc}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./int_ill.jpg"
-					alt="Intersect Illinois"
+					class="w-48 h-fit"
+					src="{Connectory}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./ignition_capital_logo.png"
-					alt="Ignition Capital"
+					class="w-48 h-fit"
+					src="{Dpi}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./dpi.png"
-					alt="Discovery Partners Institute"
+					class="w-48 h-fit"
+					src="{Matter}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./connectory.png"
-					alt="Chicago Connectory by Bosch and 1871"
+					class="w-48 h-fit"
+					src="{Mhub}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./ccc.jpg"
-					alt="Center for Creative Entreprenuership"
+					class="w-48 h-fit"
+					src="{Pilot}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./brasil_consulate.jpeg"
-					alt="Consulado-geral do Brasil Chicago"
+					class="w-48 h-fit"
+					src="{Polsky}"
+					alt="School Guardian"
 				/>
 			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
+			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="max-h-12"
-					src="./amped_kitchens.png"
-					alt="Amped Kitchens"
-				/>
-			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
-				<img
-					class="max-h-12"
-					src="./2112.png"
-					alt="Twenty One Twelve"
-				/>
-			</div>
-			<div class="col-span-1 flex justify-center py-6 px-4 bg-gray-50">
-				<img
-					class="max-h-12"
-					src="./1871.png"
-					alt="1871"
+					class="w-48 h-fit"
+					src="{Wbc}"
+					alt="School Guardian"
 				/>
 			</div>
 		</div>
