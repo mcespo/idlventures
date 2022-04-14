@@ -241,7 +241,7 @@
 						url="https://www.linkedin.com/in/vitormondo/"
 						name="Vitor Mondo"
 						role="Ag Innovation"
-						extra="Ag Innovation"
+						extra="Embrapa"
 					/>
 				</li>
 				<li>
@@ -250,7 +250,7 @@
 						url="https://www.linkedin.com/in/olympio-achilles-f-mello-40806824/"
 						name="Olympio Achilles"
 						role="Space / Airspace / Defense Innovation"
-						extra="Embrapa / Air Force"
+						extra="Embraer / Air Force"
 					/>
 				</li>
 			</ul>
