@@ -16,7 +16,7 @@
 	import Connectory from './../images/connectory_edit.png';
 	import Dpi from './../images/dpi_edit.png';
 	import Matter from './../images/matter_edit.png';
-	import Mhub from './../images/mhub_edit_200.png';
+	import Mhub from './../images/mhub.png';
 	import P33 from './../images/P33_edit.jpg';
 	import Pilot from './../images/pilot_edit.jpg';
 	import Polsky from './../images/polsky_edit.png';
@@ -152,7 +152,7 @@
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="w-32 h-auto"
+					class="w-24 h-auto"
 					src="{Mhub}"
 					alt="mHUB"
 				/>
