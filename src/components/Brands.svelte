@@ -10,13 +10,13 @@
 
 	import Logo1871 from './../images/1871_edit.png';
 	import Logo2112 from './../images/2112_edit.png';
-	import AmpedKitchen from './../images/amped_kitchens_edit.png';
+	import AmpedKitchen from './../images/amped_kitchens_edit_200.png';
 	import Brasil from './../images/brasil_consulate_edit.png';
 	import Ccc from './../images/ccc_edit.png';
 	import Connectory from './../images/connectory_edit.png';
 	import Dpi from './../images/dpi_edit.png';
 	import Matter from './../images/matter_edit.png';
-	import Mhub from './../images/mhub_edit.png';
+	import Mhub from './../images/mhub_edit_200.png';
 	import P33 from './../images/P33_edit.jpg';
 	import Pilot from './../images/pilot_edit.jpg';
 	import Polsky from './../images/polsky_edit.png';
