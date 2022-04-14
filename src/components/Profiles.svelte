@@ -250,7 +250,7 @@
 						url="https://www.linkedin.com/in/olympio-achilles-f-mello-40806824/"
 						name="Olympio Achilles"
 						role="Space / Airspace / Defense Innovation"
-						extra="Embraer / Air Force"
+						extra="Embrapa / Air Force"
 					/>
 				</li>
 			</ul>
