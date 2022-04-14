@@ -8,7 +8,7 @@
 		<div class="max-w-lg mb-16 md:mb-0 gap-4 flex flex-col items-start m-0 md:border-r-2 md:pr-10 border-idl-gray">
 			<IDLVentures height="5rem" />
 			<p class="text-1xl">
-				Team with international recognition and extensive executive expertise in internationalization, deep tech investments and development.
+				Team with international recognition and extensive executive expertise in internationalization, deep tech investments <br>and development.
 			</p>
 			<aside class="flex gap-4">
 				<img class="mx-auto h-32 w-32 rounded-full" src="./flavia_andrade.jpg" alt="Flavia Andrade" />
@@ -30,7 +30,7 @@ venture growth development.			</p>
 				<img class="mx-auto h-32 w-32 rounded-full" src="./JacquelineKapur.jpeg" alt="Jacqueline Kapur" />
 				<p class="self-center">
 					Jackie Kapur<br>
-					Managing Partner, Ignition Capital GP, IDL-Ignition<br>
+					Managing Partner, <br>Ignition Capital GP, IDL-Ignition<br>
 					Former CFO Bloomberg
 				</p>
 			</aside>
