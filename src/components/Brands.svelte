@@ -131,7 +131,7 @@
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="w-40 h-auto"
+					class="w-42 h-auto"
 					src="{Connectory}"
 					alt="Connectory"
 				/>
@@ -166,7 +166,7 @@
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="w-40 h-auto"
+					class="w-42 h-auto"
 					src="{Pilot}"
 					alt="Pilot"
 				/>
