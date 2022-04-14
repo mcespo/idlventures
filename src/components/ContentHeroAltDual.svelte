@@ -31,7 +31,7 @@ venture growth development.			</p>
 				<p class="self-center">
 					Jackie Kapur<br>
 					Managing Partner, Ignition Capital <br>GP, IDL-Ignition<br>
-					Former CFO Bloomberg
+					Former CFO, Bloomberg
 				</p>
 			</aside>
 		</div>
