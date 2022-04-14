@@ -13,7 +13,7 @@
 			<aside class="flex gap-4">
 				<img class="mx-auto h-32 w-32 rounded-full" src="./flavia_andrade.jpg" alt="Flavia Andrade" />
 				<p class="self-center">
-					Flavia Andrade<br>
+					<b>Flavia Andrade</b><br>
 					CEO, IDL Ventures<br>
 					GP, IDL-Ignition
 				</p>
@@ -29,7 +29,7 @@ venture growth development.			</p>
 			<aside class="flex gap-4">
 				<img class="mx-auto h-32 w-32 rounded-full" src="./JacquelineKapur.jpeg" alt="Jacqueline Kapur" />
 				<p class="self-center">
-					Jackie Kapur<br>
+					<b>Jackie Kapur</b><br>
 					Managing Partner, Ignition Capital <br>GP, IDL-Ignition<br>
 					Former CFO, Bloomberg
 				</p>
