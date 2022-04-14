@@ -1,9 +1,9 @@
 <script>
 	import Desh from './../images/DESH_edit.png';
-	import Dpr from './../images/DPR_edit.png';
-	import Elym from './../images/ELYM_edit.png';
+	import Dpr from './../images/DPR_edit_200.png';
+	import Elym from './../images/ELYM_edit_200.png';
 	import Imuntera from './../images/IMUNTERA_edit.png';
-	import Iris from './../images/iris_pay_edit.png';
+	import Iris from './../images/iris_pay_edit_200.png';
 	import OmniElectronica from './../images/Omni_edit.png';
 	import SchoolGuardian from './../images/School Guardian_edit.png';
 	import WeCare from './../images/WeCare_edit.png';
@@ -31,7 +31,7 @@
 		<div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="w-32 h-auto"
+					class="w-40 h-auto"
 					src="{Desh}"
 					alt="DASH"
 				/>
