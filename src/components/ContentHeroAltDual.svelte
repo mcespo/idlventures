@@ -19,7 +19,7 @@
 				</p>
 			</aside>
 		</div>
-		<div class="max-w-lg gap-4 flex flex-col items-start m-0 md:pl-10">
+		<div class="max-w-lg gap-4 flex flex-col items-start m-0 md:pl-16">
 			<img class="h-16" src="{Ignition}" alt="Ignition Capital" />
 			<p class="text-1xl">
 Team with extensive expertise in
