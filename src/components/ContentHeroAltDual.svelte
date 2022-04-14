@@ -5,7 +5,7 @@
 
 <section class="bg-idl-gray-lighter overflow-hidden pb-12 md:pb-14 lg:pb-16">
 	<div class="sm:mx-auto sm:max-w-xlmax-w-6xl flex flex-col md:flex-row items-center justify-center px-4">
-		<div class="max-w-lg mb-16 md:mb-0 gap-4 flex flex-col items-start m-0 md:border-r-2 md:pr-4 border-idl-gray">
+		<div class="max-w-lg mb-16 md:mb-0 gap-4 flex flex-col items-start m-0 md:border-r-2 md:pr-10 border-idl-gray">
 			<IDLVentures height="5rem" />
 			<p class="text-1xl">
 				Team with international recognition and extensive executive expertise in internationalization, deep tech investments and development.
@@ -19,7 +19,7 @@
 				</p>
 			</aside>
 		</div>
-		<div class="max-w-lg gap-4 flex flex-col items-start m-0 md:pl-4">
+		<div class="max-w-lg gap-4 flex flex-col items-start m-0 md:pl-10">
 			<img class="h-16" src="{Ignition}" alt="Ignition Capital" />
 			<p class="text-1xl">
 Team with extensive expertise in
