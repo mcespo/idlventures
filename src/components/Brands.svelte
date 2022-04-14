@@ -66,7 +66,7 @@
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="w-32 h-auto"
+					class="w-42 h-auto"
 					src="{OmniElectronica}"
 					alt="Omni Electronica"
 				/>
@@ -126,63 +126,63 @@
 				<img
 					class="w-32 h-auto"
 					src="{Ccc}"
-					alt="School Guardian"
+					alt="CCC"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-32 h-auto"
 					src="{Connectory}"
-					alt="School Guardian"
+					alt="Connectory"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-32 h-auto"
 					src="{Dpi}"
-					alt="School Guardian"
+					alt="DPI"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-32 h-auto"
 					src="{Matter}"
-					alt="School Guardian"
+					alt="Matter"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-32 h-auto"
 					src="{Mhub}"
-					alt="School Guardian"
+					alt="mHUB"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-32 h-auto"
 					src="{P33}"
-					alt="School Guardian"
+					alt="P33"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-32 h-auto"
 					src="{Pilot}"
-					alt="School Guardian"
+					alt="Pilot"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-32 h-auto"
 					src="{Polsky}"
-					alt="School Guardian"
+					alt="Polsky"
 				/>
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
 					class="w-32 h-auto"
 					src="{Wbc}"
-					alt="School Guardian"
+					alt="WBC"
 				/>
 			</div>
 		</div>
