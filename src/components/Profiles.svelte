@@ -228,6 +228,24 @@
 				</li>
 				<li>
 					<Profile
+						profileImage="./dan_abel.jpeg"
+						url="https://www.linkedin.com/in/danielabel//"
+						name="Dan Abel"
+						role="Branding and Food Innovation"
+						extra=""
+					/>
+				</li>
+				<li>
+					<Profile
+						profileImage="./Scott_Fetters.jpeg"
+						url="https://www.linkedin.com/in/sfetters/"
+						name="Scott Fetters"
+						role="Media, Hospitality, and Food Innovation"
+						extra=""
+					/>
+				</li>
+				<li>
+					<Profile
 						profileImage="./alexandre_grenteski.jpg"
 						url="https://www.linkedin.com/in/alexandregrenteski/"
 						name="Alexandre Grenteski"
