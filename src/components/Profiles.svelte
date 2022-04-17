@@ -237,7 +237,7 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./Scott_Fetters.jpeg"
+						profileImage="./Scott-Fetters-2-1.jpg"
 						url="https://www.linkedin.com/in/sfetters/"
 						name="Scott Fetters"
 						role="Media, Hospitality, and Food Innovation"
