@@ -41,7 +41,7 @@ venture growth development.			</p>
 				<p class="self-center">
 					<b>Jacqueline Kapur</b><br>
 					Managing Partner, Ignition Capital <br>GP, IDL-Ignition<br>
-					Former CFO, Bloomberg
+					former Division CFO, Bloomberg
 					<a href="https://www.linkedin.com/in/jacqueline-kapur-49b1b81" rel="external" class="text-idl-blue hover:text-idl-gray">
 					<span class="sr-only">LinkedIn</span>
 					<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -52,7 +52,7 @@ venture growth development.			</p>
 						/>
 					</svg>
 				</a>
-				</p>>
+				</p>
 		</div>
 	</div>
 </section>
