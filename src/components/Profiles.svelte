@@ -247,7 +247,7 @@
 				<li>
 					<Profile
 						profileImage="./Jeff-Boyer.jpeg"
-						url="https://www.linkedin.com/in/amosquim/"
+						url="https://www.linkedin.com/in/jeffreylboyer"
 						name="Jeff Boyer"
 						role="RE Innovation"
 						extra="Farnsworth Group"
