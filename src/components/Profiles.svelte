@@ -60,7 +60,7 @@
 						profileImage="./joe_woods.jpg"
 						url="https://www.linkedin.com/in/joewoods1/"
 						name="Joe Woods"
-						role="US Head of Strategy and Business Development"
+						role="Head of Strategy and Business Development"
 						extra=""
 					/>
 				</li>
@@ -87,7 +87,7 @@
 						profileImage="./rene_bonomi.jpeg"
 						url="https://www.linkedin.com/in/renebonomi/"
 						name="Rene Bonomi"
-						role="Startups Strategic CFO"
+						role="Portfolio Strategic CFO"
 						extra=""
 					/>
 				</li>
@@ -120,10 +120,10 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./thais_scholz.jpeg"
-						url="https://www.linkedin.com/in/thais-scholz-3b473569/"
-						name="Thais Scholz"
-						role="Project Manager"
+						profileImage="./Heygler-de-Paula.jpeg"
+						url="https://www.linkedin.com/in/heyglerdepaula/"
+						name="Heygler de Paula"
+						role="Sr. Project Manager"
 						extra=""
 					/>
 				</li>
@@ -192,6 +192,15 @@
 				</li>
 				<li>
 					<Profile
+						profileImage="./Ricardo-Philipp.jpeg"
+						url="https://www.linkedin.com/in/tatarobles/"
+						name="Ricardo Philipp"
+						role="Angel Investment, Fintech, Supply Chain"
+						extra="RS2E"
+					/>
+				</li>
+				<li>
+					<Profile
 						profileImage="./stuart_robles.jpeg"
 						url="https://www.linkedin.com/in/tatarobles/"
 						name="Stuart Robles"
@@ -232,7 +241,16 @@
 						url="https://www.linkedin.com/in/danielabel//"
 						name="Dan Abel"
 						role="Branding and Food Innovation"
-						extra=""
+						extra="Pilot Project"
+					/>
+				</li>
+				<li>
+					<Profile
+						profileImage="./Jeff-Boyer.jpeg"
+						url="https://www.linkedin.com/in/amosquim/"
+						name="Jeff Boyer"
+						role="RE Innovation"
+						extra="Farnsworth Group"
 					/>
 				</li>
 				<li>
@@ -241,7 +259,7 @@
 						url="https://www.linkedin.com/in/sfetters/"
 						name="Scott Fetters"
 						role="Media, Hospitality, and Food Innovation"
-						extra=""
+						extra="2112"
 					/>
 				</li>
 				<li>
