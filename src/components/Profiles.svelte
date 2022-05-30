@@ -193,7 +193,7 @@
 				<li>
 					<Profile
 						profileImage="./Ricardo-Philipp.jpeg"
-						url="https://www.linkedin.com/in/tatarobles/"
+						url="https://br.linkedin.com/in/ricardo-eid-philipp-14221b"
 						name="Ricardo Philipp"
 						role="Angel Investment, Fintech, Supply Chain"
 						extra="RS2E"
