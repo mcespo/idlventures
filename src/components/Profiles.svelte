@@ -105,16 +105,7 @@
 						profileImage="./lidia_hernandez.jpeg"
 						url="https://www.linkedin.com/in/lhernandez14/"
 						name="Lidia Hernandez"
-						role="Head of Branding Design"
-						extra=""
-					/>
-				</li>
-				<li>
-					<Profile
-						profileImage="./jp_caruso.jpeg"
-						url="https://www.linkedin.com/in/jpcaruso/"
-						name="JP Caruso"
-						role="Head of Branding Content"
+						role="Head of Branding"
 						extra=""
 					/>
 				</li>
