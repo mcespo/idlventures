@@ -111,6 +111,15 @@
 				</li>
 				<li>
 					<Profile
+						profileImage="./simao_pedro_oliveira.jpg"
+						url="https://www.linkedin.com/in/simaop/"
+						name="Simão Pedro Oliveira"
+						role="Communications Manager"
+						extra=""
+					/>
+				</li>
+				<li>
+					<Profile
 						profileImage="./Heygler-de-Paula.jpeg"
 						url="https://www.linkedin.com/in/heyglerdepaula/"
 						name="Heygler de Paula"
@@ -124,6 +133,24 @@
 						url="https://www.linkedin.com/in/mcespo/"
 						name="Marvin Céspedes"
 						role="Head of Software Engineering"
+						extra=""
+					/>
+				</li>
+			</ul>
+		</div>
+		<div class="space-y-12">
+			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
+				<h2 class="text-2xl font-black tracking-tight mt-4 pt-10">Interns</h2>
+			</div>
+			<ul
+				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-6xl"
+			>
+				<li>
+					<Profile
+						profileImage="./paola_vazquez.jpg"
+						url="https://www.linkedin.com/in/vazpao/"
+						name="Paola Vazquez"
+						role="Communications Specialist Intern"
 						extra=""
 					/>
 				</li>
