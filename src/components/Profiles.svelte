@@ -1,5 +1,7 @@
 <script>
 	import Profile from './Profile.svelte';
+	import Elizabeth from './../images/Elizabeth_Mendoza.jpg';
+	import Karolina from './../images/Karolina_gostomski.jpg';
 </script>
 
 <section id="people" class="bg-white">
@@ -147,10 +149,19 @@
 			>
 				<li>
 					<Profile
-						profileImage="./paola_vazquez.jpg"
-						url="https://www.linkedin.com/in/vazpao/"
-						name="Paola Vazquez"
-						role="Communications Specialist Intern"
+						profileImage="{Karolina}"
+						url="https://www.linkedin.com/in/karolina-gostomski/"
+						name="Karolina Gostomski"
+						role="Design Specialist Intern"
+						extra=""
+					/>
+				</li>
+				<li>
+					<Profile
+						profileImage="{Elizabeth}"
+						url="https://www.linkedin.com/in/elizabeth-mendoza-56a1b11a8/"
+						name="Elizabeth Mendoza"
+						role="Design Specialist Intern"
 						extra=""
 					/>
 				</li>
