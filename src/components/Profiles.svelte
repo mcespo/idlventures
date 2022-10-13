@@ -120,15 +120,6 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./Heygler-de-Paula.jpeg"
-						url="https://www.linkedin.com/in/heyglerdepaula/"
-						name="Heygler de Paula"
-						role="Sr. Project Manager"
-						extra=""
-					/>
-				</li>
-				<li>
-					<Profile
 						profileImage="./marvin_cespedes.jpeg"
 						url="https://www.linkedin.com/in/mcespo/"
 						name="Marvin Céspedes"
