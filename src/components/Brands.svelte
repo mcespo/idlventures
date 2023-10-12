@@ -3,10 +3,8 @@
 	import Dpr from './../images/DPR_edit_200.png';
 	import Elym from './../images/ELYM_edit_200.png';
 	import Imuntera from './../images/IMUNTERA_edit.png';
-	import Iris from './../images/iris_pay_edit_200.png';
 	import OmniElectronica from './../images/Omni_edit.png';
 	import SchoolGuardian from './../images/School Guardian_edit.png';
-	import WeCare from './../images/WeCare_edit.png';
 
 	import Logo1871 from './../images/1871_edit.png';
 	import Logo2112 from './../images/2112_edit.png';
