@@ -48,15 +48,6 @@
 				</li>
 				<li>
 					<Profile
-						profileImage="./luciana_fischer.jpg"
-						url="https://www.linkedin.com/in/luciana-zamith-fischer-9343902/"
-						name="Luciana Fischer"
-						role="CLO"
-						extra=""
-					/>
-				</li>
-				<li>
-					<Profile
 						profileImage="./joe_woods.jpg"
 						url="https://www.linkedin.com/in/joewoods1/"
 						name="Joe Woods"
@@ -82,15 +73,6 @@
 						extra=""
 					/>
 				</li>
-				<li>
-					<Profile
-						profileImage="./rene_bonomi.jpeg"
-						url="https://www.linkedin.com/in/renebonomi/"
-						name="Rene Bonomi"
-						role="Portfolio Strategic CFO"
-						extra=""
-					/>
-				</li>
 			</ul>
 		</div>
 		<div class="space-y-12">
@@ -106,15 +88,6 @@
 						url="https://www.linkedin.com/in/lhernandez14/"
 						name="Lidia Hernandez"
 						role="Head of Branding"
-						extra=""
-					/>
-				</li>
-				<li>
-					<Profile
-						profileImage="./simao_pedro_oliveira.jpg"
-						url="https://www.linkedin.com/in/simaop/"
-						name="Simão Pedro Oliveira"
-						role="Communications Manager"
 						extra=""
 					/>
 				</li>
