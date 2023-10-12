@@ -59,13 +59,6 @@
 			</div>
 			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
 				<img
-					class="w-32 h-auto"
-					src="{Iris}"
-					alt="IRIS"
-				/>
-			</div>
-			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
-				<img
 					class="w-42 h-auto"
 					src="{OmniElectronica}"
 					alt="Omni Electronica"
@@ -75,13 +68,6 @@
 				<img
 					class="w-40 h-auto"
 					src="{SchoolGuardian}"
-					alt="School Guardian"
-				/>
-			</div>
-			<div class="col-span-1 flex justify-center py-8 px-6 bg-gray-50 items-center">
-				<img
-					class="w-36 h-auto"
-					src="{WeCare}"
 					alt="School Guardian"
 				/>
 			</div>

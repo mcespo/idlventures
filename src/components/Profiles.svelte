@@ -131,69 +131,6 @@
 		</div>
 		<div class="space-y-12">
 			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
-				<h2 class="text-2xl font-black tracking-tight mt-4 pt-10">Interns</h2>
-			</div>
-			<ul
-				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-6xl"
-			>
-				<li>
-					<Profile
-						profileImage="./Karolina_Gostomski.jpg"
-						url="https://www.linkedin.com/in/karolina-gostomski/"
-						name="Karolina Gostomski"
-						role="Design Specialist Intern"
-						extra=""
-					/>
-				</li>
-				<li>
-					<Profile
-						profileImage="./Elizabeth_Mendoza.jpg"
-						url="https://www.linkedin.com/in/elizabeth-mendoza-56a1b11a8/"
-						name="Elizabeth Mendoza"
-						role="Design Specialist Intern"
-						extra=""
-					/>
-				</li>
-			</ul>
-		</div>
-		<div class="space-y-12">
-			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-6xl">
-				<h2 class="text-2xl font-black tracking-tight mt-4 pt-10">Legal</h2>
-			</div>
-			<ul
-				class="text-center mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-6xl"
-			>
-				<li>
-					<Profile
-						profileImage="./luciana_fischer.jpg"
-						url="https://www.linkedin.com/in/luciana-zamith-fischer-9343902/"
-						name="Luciana Fischer"
-						role="Immigration"
-						extra="HTFL"
-					/>
-				</li>
-				<li>
-					<Profile
-						profileImage="./ricardo_remer.jpg"
-						url="https://www.linkedin.com/in/ricardo-remer-9a515815/"
-						name="Ricardo Remer"
-						role="IP"
-						extra="Remer Villaça & Nogueira"
-					/>
-				</li>
-				<li>
-					<Profile
-						profileImage="./eleanor_martin.jpeg"
-						url="https://www.linkedin.com/in/eleanor-martin/"
-						name="Eleanor Martin"
-						role="Business"
-						extra="Winthrop & Weinstine P.A."
-					/>
-				</li>
-			</ul>
-		</div>
-		<div class="space-y-12">
-			<div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
 				<h2 class="text-2xl font-black tracking-tight mt-4 pt-10">Advisors</h2>
 			</div>
 			<ul
